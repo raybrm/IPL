@@ -1,0 +1,7 @@
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\Séance 1-20200919\2. Exercices\Week_1\Week_1\bin\Release\Week_1.exe.config
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\Séance 1-20200919\2. Exercices\Week_1\Week_1\bin\Release\Week_1.exe
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\Séance 1-20200919\2. Exercices\Week_1\Week_1\bin\Release\Week_1.pdb
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\Séance 1-20200919\2. Exercices\Week_1\Week_1\obj\Release\Week_1.csprojAssemblyReference.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\Séance 1-20200919\2. Exercices\Week_1\Week_1\obj\Release\Week_1.csproj.CoreCompileInputs.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\Séance 1-20200919\2. Exercices\Week_1\Week_1\obj\Release\Week_1.exe
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\Séance 1-20200919\2. Exercices\Week_1\Week_1\obj\Release\Week_1.pdb
