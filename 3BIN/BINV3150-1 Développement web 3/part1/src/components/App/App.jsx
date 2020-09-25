@@ -7,7 +7,7 @@ import './style.css'
 
 // Permet de créer un composant React grâce à JFX
 // Ici 'App' est tout en haut de l'arboresence des composants qu'on a créer
-const App = () => { // fonction JS
+const App = () => { // fonction fléché JS
     const course = 'Half Stack application development'
     const part1 = 'Fundamentals of React'
     const exercises1 = 10
