@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Display from 'components/Display/Display'
 import Button from 'components/Button/Button'
 
-// Composant de présentation uniquement
+// Composant de présentation uniquement pas de business
 const App = ({counter, changeCount}) => {
 
     return (

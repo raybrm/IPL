@@ -4,7 +4,7 @@ const Button = ({ handleClick, text, delta}) => {
 
   // e.target.dataset.delta -> recupère l'attribut du boutton
   // de manière basique : const helperHandleClick = () => {handleClick(delta)} // en utilisant le props directement
-  const helperHandleClick = (e) => handleClick(parseInt(e.target.dataset.delta))
+  const helperHandleClick = (e) => handleClick(parseInt(e.target.dataset.delta)) // e represente l'événement, e.target rep l'élement cliquer
 
   return (
     <button onClick={helperHandleClick} data-delta={delta}>
