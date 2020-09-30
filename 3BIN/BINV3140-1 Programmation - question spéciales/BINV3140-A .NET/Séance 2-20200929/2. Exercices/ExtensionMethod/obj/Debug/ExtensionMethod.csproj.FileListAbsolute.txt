@@ -1,0 +1,7 @@
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 2-20200929\2. Exercices\ExtensionMethod\bin\Debug\ExtensionMethod.exe.config
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 2-20200929\2. Exercices\ExtensionMethod\bin\Debug\ExtensionMethod.exe
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 2-20200929\2. Exercices\ExtensionMethod\bin\Debug\ExtensionMethod.pdb
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 2-20200929\2. Exercices\ExtensionMethod\obj\Debug\ExtensionMethod.csprojAssemblyReference.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 2-20200929\2. Exercices\ExtensionMethod\obj\Debug\ExtensionMethod.csproj.CoreCompileInputs.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 2-20200929\2. Exercices\ExtensionMethod\obj\Debug\ExtensionMethod.exe
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 2-20200929\2. Exercices\ExtensionMethod\obj\Debug\ExtensionMethod.pdb

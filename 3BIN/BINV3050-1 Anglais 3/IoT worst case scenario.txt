@@ -1,0 +1,16 @@
+IoT has benefits for sure but all benefits comes risks and the biggest issues are security and privacy. Because more IoT devices we are more entry points we have which 
+let the possibility to the hackers to penetrate our Ecosystem and leaves sensitive information vulnerable.
+
+The biggest IoT security and privacy issues:
+
+1. Public perception :The level of worry is increasing, consumers would hesitate to purchase connected devices beacuse many people were "very concerned" about the possibility of their information getting stolen from their smart home
+2. Vulnerability to Hacking: Hackers can exploit vulnerabilities in IoT devices.
+3. Are Companies ready : Only 10% of entreprises can secure their IoT devices against hackers.
+4. True security: Security into software applications and network connections that link to those devices.
+
+1. Too Much Data: The amount of IoT devices can generate is staggering. This leaves sensitive information vulnerable.
+2. Unwanted Public Profile: du to the terms of services the companies could collect our data and we don't know because we never read them.
+3. Eavesdropping: Manufacturers or hackers could connect to home networks and retrieve information about what people are doing. 
+4. Consumer Confidence: With all of these problems the consumer has less desire to purchase connected products. 
+
+https://www.businessinsider.com/iot-security-privacy?IR=T
