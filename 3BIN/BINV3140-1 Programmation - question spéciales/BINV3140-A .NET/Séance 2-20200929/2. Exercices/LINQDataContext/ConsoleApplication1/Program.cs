@@ -90,6 +90,15 @@ namespace ConsoleApplication1
                 Console.WriteLine(" {0} {1} {2}", student.Name, student.Resultat, categorie);
             }
 
+
+            /* Exercice 3.2*/
+            Console.WriteLine("-------------");
+            var query33 = from Student s in dc.Students
+                          where s.BirthDate.Year >= 1955 && s.BirthDate.Year <= 1965
+                          select new { Name = s.Last_Name, Resultat = s.Year_Result };
+
+
+
             Console.ReadLine();
         }
     }

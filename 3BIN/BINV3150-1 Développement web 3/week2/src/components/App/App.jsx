@@ -2,7 +2,7 @@ import React from 'react'
 import Display from 'components/Display/Display'
 import Button from 'components/Button/Button'
 
-// Composant de présentation uniquement pas de business
+// Composant de présentation (affichage) uniquement, pas de business dans cette partie
 const App = ({counter, changeCount}) => {
 
     return (
