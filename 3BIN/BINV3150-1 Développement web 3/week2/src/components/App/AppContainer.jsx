@@ -6,9 +6,11 @@ const AppContainer = () => {
 
     const [ counter, setCounter ] = useState(JSON.parse(localStorage.getItem('counter'))) // gère l'état
 
-    const changeCount = (delta) => {setCounter(counter + delta)}
-
-    localStorage.setItem("counter", JSON.stringify(counter))
+    const changeCount = (delta) => {
+        const newCounter = counter + delta
+        setCounter(newCounter) // appel asynchrone
+        localStorage.setItem("counter", JSON.stringify(newCounter))
+    }
     
     return (
     <App 

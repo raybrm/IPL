@@ -10,7 +10,7 @@ const App = ({counter, changeCount}) => {
         <Display counter={counter}/>
         <Button
           handleClick={changeCount}
-          text='plus'
+          text='plus' 
           delta={1}
         />
         <Button
