@@ -1,14 +1,13 @@
 import React from "react";
 
-// Form pour recherche un/des pays
-const SearchCountries = ({ filterCountries, setFilterCountrie}) => {
+const SearchCountries = ({ filterCountries, setFilterCountry}) => {
 
     const handleForm = (event) => {
         event.preventDefault()
     }
 
     const handleCountrieSearchChange = (event) => {
-        setFilterCountrie(event.target.value)
+        setFilterCountry(event.target.value)
     }
 
     return (

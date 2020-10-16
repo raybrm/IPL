@@ -5,22 +5,24 @@ import App from './App'
 const AppContainer = () => {
 
     const [ countries, setCountries ] = useState([])
-    const [ filterCountrie, setFilterCountrie] = useState('') // le filtre
+    const [ filterCountry, setFilterCountry] = useState('') // le filtre
 
 
     useEffect(() => {
-        console.log(filterCountrie)
-        axios
-            .get('https://restcountries.eu/rest/v2/name/'+ filterCountrie)
-            .then(response => {
-                setCountries(response.data)
-            })
-            .catch(err => {setFilterCountrie('')})
-    }, [filterCountrie]) // le useEffect est appelé la toute première fois lors du rendu et quand l'état change
+        console.log(filterCountry)
+        if(filterCountry !== '') {
+            axios
+                .get('https://restcountries.eu/rest/v2/name/'+ filterCountry)
+                .then(response => {
+                    setCountries(response.data)
+                })
+                .catch(err => {setCountries([])})
+        }
+    }, [filterCountry]) // le useEffect est appelé la toute première fois lors du rendu et quand l'état change
 
     return <App
-            changeFilterCountrie={setFilterCountrie}
-            filterCountries={filterCountrie}
+            changeFilterCountry={setFilterCountry}
+            filterCountries={filterCountry}
             countriesToShow={countries}
             />
 

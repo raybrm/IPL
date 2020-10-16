@@ -2,9 +2,14 @@ import React from "react";
 import CountryDetails from "./CountryDetails";
 import Country from "./Country";
 
+/*
+3 manières de faire:
+-   Utiliser un composant qui reçoit un props supplémentaire pour dire si on veut le composant détailé ou pas
+-   Enlever le composant qui affiche le nom et mettre directement le nom dans <p>
+-   Faire deux composants différents en ce disant qu'on peut modifier facilement le composant (comme mtnt)
+ */
 const AllCountries = ({countries}) => {
 
-    console.log("affichage pays ")
     if (countries.length === 1 ) {
         return <CountryDetails country={countries[0]}/>
     } else if (countries.length < 10){

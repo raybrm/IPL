@@ -1,13 +1,13 @@
 import React from "react";
-import AllCountries from "../Country/AllCountries";
-import SearchCountries from "../SearchCountries/SearchCountries";
+import AllCountries from "components/Country/AllCountries";
+import SearchCountries from "components/SearchCountries/SearchCountries";
 
-const App = ({changeFilterCountrie, filterCountries, countriesToShow}) => {
+const App = ({changeFilterCountry, filterCountries, countriesToShow}) => {
 
     return (
         <div>
             <SearchCountries filterCountries={filterCountries}
-                             setFilterCountrie={changeFilterCountrie}
+                             setFilterCountry={changeFilterCountry}
             />
             <AllCountries countries={countriesToShow}/>
         </div>
