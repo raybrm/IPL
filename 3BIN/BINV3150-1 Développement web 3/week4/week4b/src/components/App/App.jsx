@@ -8,7 +8,7 @@ const App = ({persons, addPerson, newName, changeName, newNumber, changeNumber, 
     return (
         <div>
             <h2>Phonebook</h2>
-            <Filter filter={filter} changeFilter={changeFilter}></Filter>
+            <Filter filter={filter} changeFilter={changeFilter}/>
             <h3>Add a new</h3>
             <Form 
                 newName={newName}
