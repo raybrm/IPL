@@ -21,7 +21,7 @@ namespace ConsoleApplication1
             */
 
             /*IEnumerable<Student> query = from Student s in dc.Students
-                                         select s;
+                                           select s;
 
             foreach (Student student in query)
             {
@@ -29,7 +29,7 @@ namespace ConsoleApplication1
             }
             */
 
-            // Type Anonyme
+            // var => type anonyme : utilse quand on ne prend pas tous les attributs d'un objet
             var query = from Student s in dc.Students
                         select new { Name = s.Last_Name, DateDeNaissance = s.BirthDate, Identifiant = s.Login };
 
@@ -91,12 +91,88 @@ namespace ConsoleApplication1
             }
 
 
-            /* Exercice 3.2*/
-            Console.WriteLine("-------------");
+            /* Exercice 3.3*/
+            Console.WriteLine("------ EXERCICE 3.3 -------");
             var query33 = from Student s in dc.Students
-                          where s.BirthDate.Year >= 1955 && s.BirthDate.Year <= 1965
-                          select new { Name = s.Last_Name, Resultat = s.Year_Result };
+                          where (s.Last_Name.Last() == 'r')
+                          select new { Name = s.Last_Name, StudentId = s.Student_ID };
 
+
+            foreach (var student in query33)
+            {
+                Console.WriteLine(student);
+            }
+
+
+            /* Exercice 3.4 */
+            Console.WriteLine("------ EXERCICE 3.4 -------");
+            var query34 = from Student s in dc.Students
+                          where (s.Year_Result <= 3)
+                          orderby s.Year_Result descending
+                          select new { 
+                              Name = s.Last_Name, 
+                              Resultat = s.Year_Result,
+                              catégorie = (s.Year_Result < 10) ? "inférieure" : (s.Year_Result == 10) ? "neutre" : "supérieure"
+                          };
+
+            foreach (var student in query34)
+            {
+                Console.WriteLine(student);
+            }
+
+            /* Exercice 3.5 */
+            Console.WriteLine("------ EXERCICE 3.5 -------");
+            var query35 = from Student s in dc.Students
+                          where s.Section_ID == 1110
+                          orderby s.Last_Name ascending
+                          select new
+                          {
+                              Fullname = s.Last_Name + " " + s.First_Name,
+                              Resultat = s.Year_Result,
+                              catégorie = (s.Year_Result < 10) ? "inférieure" : (s.Year_Result == 10) ? "neutre" : "supérieure"
+                          };
+
+            foreach (var student in query35)
+            {
+                Console.WriteLine(student);
+            }
+
+            /* Exercice 3.6 */
+            Console.WriteLine("------ EXERCICE 3.6 -------");
+            var query36 = from Student s in dc.Students
+                          where s.Section_ID == 1010 || s.Section_ID == 1020
+                          && !(s.Year_Result >= 12 && s.Year_Result <= 18)
+                          orderby s.Year_Result ascending
+                          select new
+                          {
+                              Fullname = s.Last_Name + " " + s.First_Name,
+                              s.Year_Result,
+                              s.Section_ID,
+                              catégorie = (s.Year_Result < 10) ? "inférieure" : (s.Year_Result == 10) ? "neutre" : "supérieure"
+                          };
+
+            foreach (var student in query36)
+            {
+                Console.WriteLine(student);
+            }
+
+            /* Exercice 3.7 */
+            Console.WriteLine("------ EXERCICE 3.7 -------");
+            var query37 = dc.Students.Where(x => x.Section_ID.ToString().StartsWith("13") && x.Year_Result * 5 <= 60)
+                            .OrderByDescending(s => s.Year_Result)
+                            .Select(s => new
+                            {
+                                FullName = s.Last_Name + " " + s.First_Name,
+                                result_100 = s.Year_Result * 5,
+                                s.Section_ID,
+                                catégorie = (s.Year_Result < 10) ? "inférieure" : (s.Year_Result == 10) ? "neutre" : "supérieure"
+
+                            });
+
+            foreach (var student in query37)
+            {
+                Console.WriteLine(student);
+            }
 
 
             Console.ReadLine();

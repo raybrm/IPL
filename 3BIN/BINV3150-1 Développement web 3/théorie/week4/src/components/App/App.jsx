@@ -15,10 +15,10 @@ const App = (props) => { // destructuring le props... props = {notes : array[]}
         event.preventDefault() // empeche l'action par défaut qui est le rechargement de la page
         console.log('button clicked', event.target)
         const noteObject = {
-            id : notes.length +1,
-            content : newNote,
-            date : new Date().toISOString(),
-            important : Math.random() < 0.5,
+            id: notes.length + 1,
+            content: newNote,
+            date: new Date().toISOString(),
+            important: Math.random() < 0.5,
         }
 
         setNotes(notes.concat(noteObject)) // crée une nouvelle copie
@@ -42,14 +42,14 @@ const App = (props) => { // destructuring le props... props = {notes : array[]}
                 </button>
             </div>
             <ul>
-                {notesToShow.map((note) => 
+                {notesToShow.map((note) =>
                     <Note key={note.id} note={note}/>
-                )} 
+                )}
             </ul>
             <form onSubmit={addNote}>
                 <input value={newNote} onChange={handleNoteChange}/>
                 <button type="submit">save</button>
-            </form>   
+            </form>
         </div>
     )
 }

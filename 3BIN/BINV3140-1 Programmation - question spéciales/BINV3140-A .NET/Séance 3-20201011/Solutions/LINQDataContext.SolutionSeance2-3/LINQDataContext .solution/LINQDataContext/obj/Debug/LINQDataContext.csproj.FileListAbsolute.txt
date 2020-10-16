@@ -1,0 +1,44 @@
+D:\Developpement\Visual Studio 2010\Projects\LinqExercices\LINQDataContext\obj\Debug\ResolveAssemblyReference.cache
+D:\Developpement\Visual Studio 2010\Projects\LinqExercices\LINQDataContext\bin\Debug\LINQDataContext.dll
+D:\Developpement\Visual Studio 2010\Projects\LinqExercices\LINQDataContext\bin\Debug\LINQDataContext.pdb
+D:\Developpement\Visual Studio 2010\Projects\LinqExercices\LINQDataContext\obj\Debug\LINQDataContext.dll
+D:\Developpement\Visual Studio 2010\Projects\LinqExercices\LINQDataContext\obj\Debug\LINQDataContext.pdb
+M:\partage\Travail\Gregory Seront\Dropbox\C#\Linq\LINQDataContext\LINQDataContext\bin\Debug\LINQDataContext.dll
+M:\partage\Travail\Gregory Seront\Dropbox\C#\Linq\LINQDataContext\LINQDataContext\bin\Debug\LINQDataContext.pdb
+M:\partage\Travail\Gregory Seront\Dropbox\C#\Linq\LINQDataContext\LINQDataContext\obj\Debug\ResolveAssemblyReference.cache
+M:\partage\Travail\Gregory Seront\Dropbox\C#\Linq\LINQDataContext\LINQDataContext\obj\Debug\LINQDataContext.dll
+M:\partage\Travail\Gregory Seront\Dropbox\C#\Linq\LINQDataContext\LINQDataContext\obj\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\C#\2013-2014\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\C#\2013-2014\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\C#\2013-2014\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csprojResolveAssemblyReference.cache
+O:\TRAVAIL\COURS\C#\2013-2014\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\C#\2013-2014\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - LINQ\Semaine 06 et 07 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\C#\2014-2015\Semaine 03 et 04 - LINQ\Semaine 03 et 04 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\C#\2014-2015\Semaine 03 et 04 - LINQ\Semaine 03 et 04 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\C#\2014-2015\Semaine 03 et 04 - LINQ\Semaine 03 et 04 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csprojResolveAssemblyReference.cache
+O:\TRAVAIL\COURS\C#\2014-2015\Semaine 03 et 04 - LINQ\Semaine 03 et 04 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\C#\2014-2015\Semaine 03 et 04 - LINQ\Semaine 03 et 04 - Solution\LINQDataContext.Solution\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\DOTNET\2018-2019\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\DOTNET\2018-2019\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\DOTNET\2018-2019\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csprojResolveAssemblyReference.cache
+O:\TRAVAIL\COURS\DOTNET\2018-2019\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csproj.CoreCompileInputs.cache
+O:\TRAVAIL\COURS\DOTNET\2018-2019\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\DOTNET\2018-2019\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\DOTNET\2019-2020\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\DOTNET\2019-2020\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.pdb
+O:\TRAVAIL\COURS\DOTNET\2019-2020\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csprojResolveAssemblyReference.cache
+O:\TRAVAIL\COURS\DOTNET\2019-2020\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csproj.CoreCompileInputs.cache
+O:\TRAVAIL\COURS\DOTNET\2019-2020\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.dll
+O:\TRAVAIL\COURS\DOTNET\2019-2020\03 - LINQ\Solution\LINQDataContext.SolutionSeance4\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.pdb
+O:\OneDrive\Haute Ecole Léonard de Vinci\Groupe . NET - General\2020-2021\03 - LINQ\Solution\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.dll
+O:\OneDrive\Haute Ecole Léonard de Vinci\Groupe . NET - General\2020-2021\03 - LINQ\Solution\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.pdb
+O:\OneDrive\Haute Ecole Léonard de Vinci\Groupe . NET - General\2020-2021\03 - LINQ\Solution\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csprojAssemblyReference.cache
+O:\OneDrive\Haute Ecole Léonard de Vinci\Groupe . NET - General\2020-2021\03 - LINQ\Solution\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csproj.CoreCompileInputs.cache
+O:\OneDrive\Haute Ecole Léonard de Vinci\Groupe . NET - General\2020-2021\03 - LINQ\Solution\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.dll
+O:\OneDrive\Haute Ecole Léonard de Vinci\Groupe . NET - General\2020-2021\03 - LINQ\Solution\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.pdb
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 3-20201011\Solutions\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.dll
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 3-20201011\Solutions\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\bin\Debug\LINQDataContext.pdb
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 3-20201011\Solutions\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csprojAssemblyReference.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 3-20201011\Solutions\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.csproj.CoreCompileInputs.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 3-20201011\Solutions\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.dll
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 3-20201011\Solutions\LINQDataContext.SolutionSeance2-3\LINQDataContext .solution\LINQDataContext\obj\Debug\LINQDataContext.pdb
