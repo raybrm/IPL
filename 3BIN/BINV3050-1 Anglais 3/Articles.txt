@@ -1,0 +1,46 @@
+Partie 1 (22/09 - 04/10):
+
+- 	https://www.euractiv.com/section/digital/news/meps-raise-concerns-on-eu-plans-for-police-facial-recognition-database/
+-	https://www.biometricupdate.com/202009/biometric-accuracy-with-masks-added-as-criteria-for-indian-public-face-recognition-system
+-	https://seaviewroad.com/2020/09/28/face-recognition-technology-market-increasing-demand-with-industry-professionals-3m-nec-corporation-aware-inc/
+-	https://www.theverge.com/platform/amp/2020/8/18/21373316/nypd-facial-recognition-black-lives-matter-activist-derrick-ingram?fbclid=IwAR3EK8ZN4bTUwLVy2FnPorwwtbQy0IjJxIyo23Ao4Z4cR_d2VE4xUY4vcuM
+-	https://globalvoices.org/2020/07/21/black-lives-matter-forces-an-ibm-u-turn-on-facial-recognition/amp/?fbclid=IwAR3R0_uS5MeBEel1kdqMrj7V08D0c7-ygvgqqjNMJY3ZzbFAZosoKBLnCEE
+-	https://www.wired.com/story/defending-black-lives-means-banning-facial-recognition/amp?fbclid=IwAR1pac1hanoBdF842ZPe6AMfnZFUM_L8xv-h57LOM_kgGkPmZje1W1jPkrU
+-	https://digital-society-forum.orange.com/fr/les-actus/1166-ia-quand-la-reconnaissance-faciale-a-des-biais-racistes?fbclid=IwAR0dTuZKQaP_k_Jkzxznac6IQIKEkHbBUEFr5SzHHEPBCGSivCAyBH2IAyc (trouvé un article similaire en EN)
+-	https://amp.theguardian.com/commentisfree/2020/jul/17/protest-black-lives-matter-database?fbclid=IwAR38zsQQJHGDTQEATCzMnem-WUEVddmLImwYlze-_Wd7yBdRxAE43evkR3k
+
+Partie 2 (5/10 - 18/10):
+-	https://www.neweurope.eu/article/kazakhstans-capital-to-install-facial-recognition-payment-technology-in-2021/ 
+-	https://www.themiamihurricane.com/2020/10/15/despite-new-evidence-umpd-chief-denies-use-of-facial-recognition-technology/
+-	https://www.biometricupdate.com/202010/pakistan-deploys-facial-recognition-to-secure-borders-biometric-prisoner-identification-ordered
+-	https://stuff.co.za/2020/10/15/masks-facial-recognition-future-co-exist/
+-	https://www.indialegallive.com/column-news/artificial-intelligence-face-recognition-raise-niti-aayog/
+
+
+Partie 3 (19/10 - 01/11):
+-	https://www.oodaloop.com/briefs/2020/10/20/singapores-world-first-face-scan-plan-sparks-privacy-fears/
+-	https://findbiometrics.com/singapore-moves-forward-national-facial-recognition-system-101903/
+-	https://www.bbc.com/news/business-54266602
+	(about privacy in EU, before speak about GDPR)
+-	https://www.biometricupdate.com/202010/eu-placing-new-restrictions-on-facial-recognition-and-espionage-technology-exports
+-	https://www.biometricupdate.com/202001/eu-no-longer-considering-facial-recognition-ban-in-public-spaces 
+	
+
+
+
+
+Intro : 
+
+	On retouvre les systèmes de reconnaissance faciale dans tout ce qui concerne la sécurité et dans l'assitance à l'utilisateur pour qu'il ait une meilleur experience utilisateur. 
+	Le principal domaine d'application de la reconnaissance faciale est la sécurité. Elle est utiliser afin d'identifier des individus pour garantir la sécurité des personnes. On peut les retrouver dans les aéroports 
+	
+	La reconnaisance facial est utilisé sur les réseaux sociaux afin d'identifier quelqu'un sur une photo (Facebook), sur les smartphones pour authentifier un individu pour déverouille l'appareil.
+	
+	Identification: one to many: consiste à detérminer l'identité d'une personne parmis N individus connues dans une base de donnée.
+	Vérification: one to one: consiste a vérifier que l'identité de la personne est bien la bonne. (dévérouillage de téléphone)
+	
+	
+	(Source intro)
+	https://www.wired.com/2001/02/call-it-super-bowl-face-scan-i/ 
+	https://www.vice.com/en/article/kb78de/that-time-the-super-bowl-secretly-used-facial-recognition-software-on-fans
+

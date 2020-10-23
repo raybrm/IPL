@@ -8,11 +8,11 @@ using LINQDataContext;
 namespace ConsoleApplication1
 {
     class Program
-    {
+    {   
+        // Requete LINQ sur des objets
         static void Main(string[] args)
         {
             DataContext dc = new DataContext();
-
 
             /*
              * Exercice 2.1
@@ -174,6 +174,140 @@ namespace ConsoleApplication1
                 Console.WriteLine(student);
             }
 
+            /* Exercice 4.1 */
+            Console.WriteLine("------ EXERCICE 4.1 -------");
+            double moyenne = dc.Students.Average(s => s.Year_Result);
+            Console.WriteLine("Moyenne = " + moyenne);
+
+            /* Exercice 4.2 */
+            Console.WriteLine("------ EXERCICE 4.2 -------");
+            double max = dc.Students.Max(s => s.Year_Result); 
+            Console.WriteLine("Max = " + max);
+
+            /* Exercice 4.3 */
+            Console.WriteLine("------ EXERCICE 4.3 -------");
+            double somme = dc.Students.Sum(s => s.Year_Result);
+            Console.WriteLine("Somme = " + somme);
+
+            /* Exercice 4.4 */
+            Console.WriteLine("------ EXERCICE 4.4 -------");
+            double min = dc.Students.Min(s => s.Year_Result);
+            Console.WriteLine("Max = " + min);
+
+            /* Exercice 4.5 */
+            Console.WriteLine("------ EXERCICE 4.5 -------");
+            int nbLigne = dc.Students.Count();
+            Console.WriteLine("Nombre de ligne = " + nbLigne);
+
+            /* Exercice 5.1 */
+            Console.WriteLine("------ EXERCICE 5.1 -------");
+            IEnumerable<IGrouping<int, Student>> query51 = from Student s in dc.Students
+                                                           group s by s.Section_ID;
+            
+            foreach (IGrouping<int, Student> section in query51)
+            {
+                Console.WriteLine("Le max de la section {0} est {1}", section.Key, section.Max(s => s.Year_Result));
+            }
+
+            /* Exercice 5.2 */
+            Console.WriteLine("------ EXERCICE 5.2 -------");
+            IEnumerable<IGrouping<int, Student>> query52 = from Student s in dc.Students
+                                                           where s.Section_ID.ToString().StartsWith("10")
+                                                           group s by s.Section_ID;
+
+            foreach (IGrouping<int, Student> section in query52)
+            {
+                Console.WriteLine("La moyenn de la section {0} est {1}", section.Key, section.Average(s => s.Year_Result));
+            }
+
+            /* Exercice 5.3 */
+            Console.WriteLine("------ EXERCICE 5.3 -------");
+            IEnumerable<IGrouping<int, Student>> query53 = from Student s in dc.Students
+                                                           where s.BirthDate.Year >= 1970 && s.BirthDate.Year <= 1985
+                                                           group s by s.BirthDate.Month;
+
+            foreach (IGrouping<int, Student> section in query53)
+            {
+                Console.WriteLine("La moyenne des étudiants du mois de {0} est {1}", section.Key, section.Average(s => s.Year_Result));
+            }
+
+
+            /* Exercice 5.4 */
+            Console.WriteLine("------ EXERCICE 5.4 -------");
+            IEnumerable<IGrouping<int, Student>> query54 = from Student s in dc.Students
+                                                           group s by s.Section_ID;
+
+            foreach (IGrouping<int, Student> section in query54)
+            {
+                if (section.Count() > 3)
+                {
+                    Console.WriteLine("La moyenne de la section {0} est {1}", section.Key, section.Average(s => s.Year_Result));
+                }
+
+            }
+
+            /* Exercice 5.5 */
+            Console.WriteLine("------ EXERCICE 5.5 -------");
+            var query55 = from Course c in dc.Courses
+                          join prof in dc.Professors on c.Professor_ID equals prof.Professor_ID
+                          join section in dc.Sections on prof.Section_ID equals section.Section_ID
+                          select new
+                          {
+                              Course_name = c.Course_Name,
+                              Section_name = section.Section_Name,
+                              Professor_name = prof.Professor_Name
+                          };
+
+            foreach (var jointure in query55)
+            {
+                Console.WriteLine("{0} {1} {2}", jointure.Course_name, jointure.Section_name, jointure.Professor_name);
+            }
+
+            /* Exercice 5.6 */
+            Console.WriteLine("------ EXERCICE 5.6 -------");
+            var query56 = from Section s in dc.Sections
+                          join stud in dc.Students on s.Delegate_ID equals stud.Student_ID
+                          orderby s.Section_ID descending
+                          select new
+                          {
+                              Section_id = s.Section_ID,
+                              Section_name = s.Section_Name,
+                              Last_name = stud.Last_Name
+                          };
+
+            foreach (var jointure in query56)
+            {
+                Console.WriteLine("{0} {1} {2}", jointure.Section_id, jointure.Section_name, jointure.Last_name);
+            }
+
+            /* Exercice 5.7 */
+            // Le groupJoin permet d'avoir plusieurs élément de la table de gauche raccorder à des éléments de la table de droite 
+            // Les éléments qui n'ont pas de correspondance sont aussi mis dans le résultat
+            // Ici une section peut avoir plusieurs prof, si on ne fait pas le groupjoin, il y aura pour chaque section un seul prof au max
+            Console.WriteLine("------ EXERCICE 5.7 -------");
+            var query57 = from Section s in dc.Sections
+                          join prof in dc.Professors on s.Section_ID equals prof.Section_ID into sectProfs
+                          select new
+                          {
+                              Section_id = s.Section_ID,
+                              Section_name = s.Section_Name,
+                              sectProfs
+                          };
+
+            foreach (var jointure in query57)
+            {
+                Console.WriteLine("{0} {1} : ", jointure.Section_id, jointure.Section_name); 
+                if (jointure.sectProfs.Count() > 0)
+                {
+                    foreach (Professor prof in jointure.sectProfs)
+                    {
+                        Console.WriteLine("{0}", prof.Professor_Name);
+                    }
+                } else
+                {
+                    Console.WriteLine("Aucun");
+                }
+            }
 
             Console.ReadLine();
         }

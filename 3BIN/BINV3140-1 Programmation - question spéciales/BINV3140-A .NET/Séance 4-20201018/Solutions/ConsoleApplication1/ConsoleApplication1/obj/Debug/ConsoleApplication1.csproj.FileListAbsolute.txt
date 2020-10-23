@@ -1,0 +1,49 @@
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\bin\Debug\fr\EntityFramework.resources.dll
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+O:\TRAVAIL\COURS\DOTNET\2015-2016\Semaine 05 - LINQ to Entities\Solution2015-2016\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\fr\EntityFramework.resources.dll
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+O:\TRAVAIL\COURS\DOTNET\2016-2017\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\fr\EntityFramework.resources.dll
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - LINQ to Entities\05 - Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - 06 LINQ to Entities\05 - 06 Solution\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - 06 LINQ to Entities\05 - 06 Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+O:\TRAVAIL\COURS\DOTNET\2017-2018\05 - 06 LINQ to Entities\05 - 06 Solution\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\bin\Debug\fr\EntityFramework.resources.dll
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CopyComplete
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\Solutions\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

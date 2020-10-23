@@ -1,0 +1,2 @@
+Pour écouter le traffic d'un LAN on peut utiliser wireshark. Il faut pour cela être dans le LAN. Quand un paquet va sur le routeur il envoie normalement tous les paquet sur toutes les interfaces.
+En tout cas c'est ce qu'il se passe quand on est brancher en switch dans un LAN. Pour wireshark il faut mettre la plage d'adresses. 
