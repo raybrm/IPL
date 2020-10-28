@@ -24,9 +24,15 @@ Partie 3 (19/10 - 01/11):
 	(about privacy in EU, before speak about GDPR)
 -	https://www.biometricupdate.com/202010/eu-placing-new-restrictions-on-facial-recognition-and-espionage-technology-exports
 -	https://www.biometricupdate.com/202001/eu-no-longer-considering-facial-recognition-ban-in-public-spaces 
+- 	https://bitterwinter.org/facial-recognition-cameras-installed-in-state-run-religious-venues/ (nice)
+-	https://www.biometricupdate.com/202010/facial-recognition-utilized-by-protestors-around-the-world-to-identify-police (trouver l'article qui parle du Ban de la reconnaissance Faciale aux USA) 
 	
+						https://www.biometricupdate.com/202009/portland-oregon-bans-face-biometrics-for-businesses-and-local-police (dire juste où la reconnaisse facial est ban aux usa) 
+						https://www.technologyreview.com/2020/06/26/1004500/a-new-us-bill-would-ban-the-police-use-of-facial-recognition/#:~:text=The%20news%3A%20US%20Democratic%20lawmakers,surveillance%20technology%20in%20the%20US.
 
 
+COVID 19:
+	https://www.nationalgeographic.com/science/2020/09/face-mask-recognition-has-arrived-for-coronavirus-better-or-worse-cvd/
 
 
 Intro : 
@@ -43,4 +49,29 @@ Intro :
 	(Source intro)
 	https://www.wired.com/2001/02/call-it-super-bowl-face-scan-i/ 
 	https://www.vice.com/en/article/kb78de/that-time-the-super-bowl-secretly-used-facial-recognition-software-on-fans
+
+
+
+
+Part 1 :
+	- https://www.theverge.com/platform/amp/2020/8/18/21373316/nypd-facial-recognition-black-lives-matter-activist-derrick-ingram?fbclid=IwAR3EK8ZN4bTUwLVy2FnPorwwtbQy0IjJxIyo23Ao4Z4cR_d2VE4xUY4vcuM
+	- https://www.theverge.com/2020/8/26/21402978/clearview-ai-ceo-interview-2400-police-agencies-facial-recognition
+
+La police de New york a utilisé la reconnaissance faciale pour retrouver un activist du mouvement Black lives matter qui a été accusé d'agression sur agent.
+Le 7 aout la police a été au domicile de militant sans mandat de perquisition ce qui a provoqué du mouvement dans les rues.
+Après cela NYPD a été critiqué pour avoir utilisé la reconnaissance faciale pour retrouver la personne. 
+Mais la police a confirmé qu'il n'utilisait que la reconnaissance faciale que pour des enquêtes comparant une image provenant d'une vidéo de surveillance à un ensemble d'images
+légalement possédées. Et donc dans aucun cas ils n'utilisaient des photos provenant des réseaux sociaux. 
+Le maire de Ney work a aussi dit qu'ils devaient être prudent avec l'utilisation de la reconnaissance faciale.
+Depuis 2011 la police utilise la reconnaissance faciale pour identifier des suspects lors d'enquêtes provenant de la société Clearview AI.
+Due to this event, Le sénateur de la ville de Manhattan veut interdire l'utilisation de la reconnaissance faciale par la police de NY.
+
+Mais qui est clearview AI ? c'est une entreprise qui est spécialisée dans la reconnaissance faciale. Plus de 2400 servives de police utilise le logiciel de Clearview.
+Cette entreprise controversée collecte des données provenant des réseaux sociaux pour contruire sa base de données. 
+Avant même les protestations contre la police, l'entreprise était critiqué du fait qu'il ne respecte pas la vie privée des individus.
+Le logiciel de Clearview a été aussi été utilise pour identifié des protestant à Miami. Le police de Miami a dit qu'il n'utiliserais pas ce logiciel contre les protestant tant qu'il
+ne commette pas de crime.
+
+
+
 

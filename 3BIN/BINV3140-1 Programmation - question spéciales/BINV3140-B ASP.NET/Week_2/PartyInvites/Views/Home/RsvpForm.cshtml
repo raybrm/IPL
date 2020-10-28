@@ -11,8 +11,9 @@
 </head>
 <body>
     <form asp-action="RsvpForm" method="post">
+        <div asp-validation-summary="All"></div> @*Accès au détail de validation *@
         <div>
-            <label asp-for="Name">Your name:</label>
+            <label asp-for="Name">Your name:</label> @*le Name correspond à un champ du model GuestResponse*@
             <input asp-for="Name"/>
         </div>
         <div>
@@ -21,7 +22,7 @@
         </div>
         <div>
             <label asp-for="Phone">Your phone:</label>
-            <input asp-for="Phone" />
+            <input asp-for="Phone"/>
         </div>
         <div>
             <label>Will you attend ? </label>

@@ -38,3 +38,4 @@ D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B
 D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\Week_2\PartyInvites\obj\Debug\netcoreapp3.1\PartyInvites.csproj.CopyComplete
 D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\Week_2\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\RsvpForm.cshtml.g.cs
 D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\Week_2\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\Thanks.cshtml.g.cs
+D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\Week_2\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\ListResponses.cshtml.g.cs

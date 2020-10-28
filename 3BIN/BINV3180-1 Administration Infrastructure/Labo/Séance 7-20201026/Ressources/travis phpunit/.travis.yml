@@ -1,0 +1,20 @@
+
+language: php
+
+php:
+  - 7.4
+# execute any number of scripts before the test run, custom env's are available as variables
+before_script:
+   - echo "before script"
+   - wget https://phar.phpunit.de/phpunit.phar
+   - chmod +x phpunit.phar
+   - sudo mv phpunit.phar phpunit
+   - ./phpunit --version
+
+script:  
+    - echo "scripts" #phpunit --configuration phpunit_$DB.xml --coverage-text
+    - ./phpunit test.php
+
+# configure notifications (email, IRC, campfire etc)
+notifications:
+  #email: "olivier.choquet@vinci.be"

@@ -1,0 +1,16 @@
+Pipelline de developpement (chapitre 11 - devOps)
+	devOps: developpement + operationnel(admin sys)
+	deploier plus rapidement.
+	Automatiser les tests quand dépot sur Git
+	
+	2. Code : github/lab 
+
+
+Donc créations de 2 environnement : developpement et production (site mis à disposition sur internet)
+Il y a un pipeline qui sera lier aux 2 environnements (2 applications )
+
+Comment déployer sur l'environnement de production et à quel moment ? 
+	Promote to production 
+
+Travis permet de faire des test unitaire avant que l'application se déploie
+	.travis.yaml pour dire quelle test on veut faire
