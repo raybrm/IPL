@@ -56,21 +56,35 @@ Intro :
 Part 1 :
 	- https://www.theverge.com/platform/amp/2020/8/18/21373316/nypd-facial-recognition-black-lives-matter-activist-derrick-ingram?fbclid=IwAR3EK8ZN4bTUwLVy2FnPorwwtbQy0IjJxIyo23Ao4Z4cR_d2VE4xUY4vcuM
 	- https://www.theverge.com/2020/8/26/21402978/clearview-ai-ceo-interview-2400-police-agencies-facial-recognition
+	- https://amp.theguardian.com/commentisfree/2020/jul/17/protest-black-lives-matter-database?fbclid=IwAR38zsQQJHGDTQEATCzMnem-WUEVddmLImwYlze-_Wd7yBdRxAE43evkR3k
+	- https://www.nbcmiami.com/investigations/miami-police-used-facial-recognition-technology-in-protesters-arrest/2278848/
 
 La police de New york a utilisé la reconnaissance faciale pour retrouver un activist du mouvement Black lives matter qui a été accusé d'agression sur agent.
-Le 7 aout la police a été au domicile de militant sans mandat de perquisition ce qui a provoqué du mouvement dans les rues.
-Après cela NYPD a été critiqué pour avoir utilisé la reconnaissance faciale pour retrouver la personne. 
-Mais la police a confirmé qu'il n'utilisait que la reconnaissance faciale que pour des enquêtes comparant une image provenant d'une vidéo de surveillance à un ensemble d'images
+Le 7 aout la police a été au domicile du militant sans mandat de perquisition ce qui a provoqué du mouvement dans les rues.
+Après cela NYPD a été critiqué pour avoir utilisé la reconnaissance faciale pour retrouver la personne car dans une video on peut voir qu'un officier analyse un document où il y a marqué "Facial identification Section Informational Lead Report" avec une image provenant de l'instagram du militant. 
+Mais la police a confirmé à un journal local qu'il n'utilisait que la reconnaissance faciale que pour des enquêtes en comparant une image provenant d'une vidéo de surveillance à un ensemble d'images
 légalement possédées. Et donc dans aucun cas ils n'utilisaient des photos provenant des réseaux sociaux. 
-Le maire de Ney work a aussi dit qu'ils devaient être prudent avec l'utilisation de la reconnaissance faciale.
-Depuis 2011 la police utilise la reconnaissance faciale pour identifier des suspects lors d'enquêtes provenant de la société Clearview AI.
-Due to this event, Le sénateur de la ville de Manhattan veut interdire l'utilisation de la reconnaissance faciale par la police de NY.
+Le maire de Ney work a aussi dit qu'ils devaient être prudent avec l'utilisation de la reconnaissance faciale et qu'ils allaient changer les standards.
+Depuis 2011 la police utilise la reconnaissance faciale pour identifier des suspects lors d'enquêtes. Ce logiciel provient de la société Clearview AI.
+Due to this event,  le sénateur de la ville de Manhattan veut même interdire l'utilisation de la reconnaissance faciale par la police de NY.
 
 Mais qui est clearview AI ? c'est une entreprise qui est spécialisée dans la reconnaissance faciale. Plus de 2400 servives de police utilise le logiciel de Clearview.
 Cette entreprise controversée collecte des données provenant des réseaux sociaux pour contruire sa base de données. 
-Avant même les protestations contre la police, l'entreprise était critiqué du fait qu'il ne respecte pas la vie privée des individus.
-Le logiciel de Clearview a été aussi été utilise pour identifié des protestant à Miami. Le police de Miami a dit qu'il n'utiliserais pas ce logiciel contre les protestant tant qu'il
-ne commette pas de crime.
+Avant même les protestations contre les violences policiaire, l'entreprise était critiqué du fait qu'il ne respecte pas la vie privée des individus.
+En plus du cas à New York le logiciel de Clearview a été aussi utilisé pour identifié des protestant à Miami. Le police de Miami a dit qu'il n'utilisais pas ce logiciel contre les protestant tant qu'il
+ne commette pas de crime. (la plice utilise ce logiciel uniquement contre les protestants qui commette des crimes, et donc pas contre tous les protestants )
+
+"Pendant les le mouvement blakc lives matter, des milliers des photos et vidéos des protestants ont été capturé et mise sur internet qui pourrait être utiliser contre eux car nous savons que la police est contre ce genre de mouvement "
+Au moins 25% des bureaux de police peuvent utiliser la reconnaissance faciale. 8000 , c'est le nombre de fois que le police de NY a utilisé la reconnaissance faciale en 2019
+en utilisant la "base de données des gangs" dans laquelle il y a 42 000 New yorkais dont la plupart sont des personnes de couleurs.  
+Outre la surveillance masse, la reconnaissance faciale à un autre point négatif elle n'est pas fiable à 100%, il y a un risque réel de mauvaise identification. L'une des récente victime est Robert William qui a été accusé à tord
+pour un crime qu'il n'avait pas comis (wrongfull accused by an algorithme for a crime he did not commit). C'était un faux positive.
+
+Beaucoup de grosse entreprises comme IBM, Amazon et Microsoft ont fait des choix pour supporter les manifestants du mouvement BLM.
+IBM s'est complétement retiré du marchés de la reconnaissance faciale. Amazon ne vendra pas leur logiciel pendant 1 an à la police et Microsoft arrete aussi de vendre tant qu'une loi sur le respects des droits de l'homme n'est pas mis en place.
+Toutes ses sociétés étaient contre la surveillance de masse et les injustices raciales.
+La seule société qui continue à fournir leur logiciel à la police est ClearView AI.
+
 
 
 
