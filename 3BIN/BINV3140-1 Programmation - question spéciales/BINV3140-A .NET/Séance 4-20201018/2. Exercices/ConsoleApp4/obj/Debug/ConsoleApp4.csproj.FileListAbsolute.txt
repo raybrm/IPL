@@ -11,3 +11,16 @@ D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A
 D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CopyComplete
 D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.exe
 D:\Documents7\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\EntityFramework.dll
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\EntityFramework.SqlServer.dll
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\EntityFramework.xml
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\EntityFramework.SqlServer.xml
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\bin\Debug\fr\EntityFramework.resources.dll
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CopyComplete
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-A .NET\Séance 4-20201018\2. Exercices\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

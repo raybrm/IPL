@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents7\\IPL\\3BIN\\BINV3140-1 Programmation - question spéciales\\BINV3140-B ASP.NET\\Week_2\\PartyInvites\\PartyInvites.csproj",
+      "projectUniqueName": "D:\\Rayan\\Documents\\IPL\\3BIN\\BINV3140-1 Programmation - question spéciales\\BINV3140-B ASP.NET\\Week_2\\PartyInvites\\PartyInvites.csproj",
       "projectName": "PartyInvites",
-      "projectPath": "D:\\Documents7\\IPL\\3BIN\\BINV3140-1 Programmation - question spéciales\\BINV3140-B ASP.NET\\Week_2\\PartyInvites\\PartyInvites.csproj",
+      "projectPath": "D:\\Rayan\\Documents\\IPL\\3BIN\\BINV3140-1 Programmation - question spéciales\\BINV3140-B ASP.NET\\Week_2\\PartyInvites\\PartyInvites.csproj",
       "packagesPath": "C:\\Users\\rayan\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents7\\IPL\\3BIN\\BINV3140-1 Programmation - question spéciales\\BINV3140-B ASP.NET\\Week_2\\PartyInvites\\obj\\",
+      "outputPath": "D:\\Rayan\\Documents\\IPL\\3BIN\\BINV3140-1 Programmation - question spéciales\\BINV3140-B ASP.NET\\Week_2\\PartyInvites\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rayan\\AppData\\Roaming\\NuGet\\NuGet.Config",

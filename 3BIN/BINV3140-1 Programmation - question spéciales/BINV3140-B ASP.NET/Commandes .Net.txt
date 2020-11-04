@@ -1,0 +1,2 @@
+reset la base de données:
+dotnet ef database drop --force --context StoreDbContext

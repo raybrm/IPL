@@ -14,3 +14,10 @@ Mes attentes : - Acquérir une expérience professionnel dans le domaine de SAP.
 analyst technique + developpement + test sur un projet déjà existant pour Carrefour 
 
 Quid de la méthodologie (plannification ? )
+
+
+
+
+Module déjà en place, pas de projet from scratch. 
+C'est de la modification de fonctionnalité déjà existante ou rajout de nouveaux écrans ABAP Dans lequel il y aura de la documentation, de l'analyse des tests. 
+On peut voir ça comme de la maintenance tout en développant.

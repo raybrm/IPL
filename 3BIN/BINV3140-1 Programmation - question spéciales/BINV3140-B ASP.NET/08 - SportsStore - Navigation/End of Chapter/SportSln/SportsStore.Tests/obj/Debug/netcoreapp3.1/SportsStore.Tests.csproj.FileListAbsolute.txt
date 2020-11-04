@@ -1,0 +1,4 @@
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\08 - SportsStore - Navigation\End of Chapter\SportSln\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.csprojAssemblyReference.cache
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\08 - SportsStore - Navigation\End of Chapter\SportSln\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.AssemblyInfoInputs.cache
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\08 - SportsStore - Navigation\End of Chapter\SportSln\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.AssemblyInfo.cs
+D:\Rayan\Documents\IPL\3BIN\BINV3140-1 Programmation - question spéciales\BINV3140-B ASP.NET\08 - SportsStore - Navigation\End of Chapter\SportSln\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.csproj.CoreCompileInputs.cache
