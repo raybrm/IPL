@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SportsStore.Models
 {
-    // Remplir la base de données
+    // Rempli la base de données
     public static class SeedData
     {
 
