@@ -6,7 +6,7 @@ const Opinion = ({opinion}) => {
 
     const {increaseOpinion} = useContext(opinionsContext)
 
-    const handlClick = () => {
+    const handlClick = () => { // propre au composant
         increaseOpinion(opinion)
     }
 

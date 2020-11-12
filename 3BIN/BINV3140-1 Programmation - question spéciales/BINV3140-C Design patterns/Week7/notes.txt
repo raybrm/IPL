@@ -1,0 +1,5 @@
+1: builder
+2: decorator
+3: Flyweight: permet d'éviter de récréer des objets qu'on utilise souvent
+	abstract factory + flyweight 
+	prototype + flyweight

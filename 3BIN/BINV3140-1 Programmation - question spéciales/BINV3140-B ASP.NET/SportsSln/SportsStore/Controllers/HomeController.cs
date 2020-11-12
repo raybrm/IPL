@@ -20,7 +20,7 @@ namespace SportsStore.Controllers
             repository = repo;
         }
 
-        public IActionResult Index(string category, int productPage = 1) // Paramètre de la requete HTTP
+        public IActionResult Index(string category, int productPage = 1) // Paramètre de la requete HTTP grâce au model binding, categorie peut être null
         {
             return View(new ProductsListViewModel
             {

@@ -27,13 +27,23 @@ public class PatternRobots {
 	}
 	
 	public static void main(String[] args) {
+		/*
 		// un robot avec un canon de 10, un bouclier de 2, une fréquence de tir de 100
 		// et qui a reçu une amélioration de canon multipliant la puissance de ce dernier par 2.
 		Robot robot1= new RobotAmeliorationDegats(new RobotImpl.RobotBuilder("robot1").puissanceCanon(10).puissanceBouclier(2).frequenceTir(100).build());
 		// un robot avec un canon de 9, un bouclier de 3, une fréquence de tir de 90
 		// et qui a reçu une amélioration de bouclier multipliant ce dernier par 2 et une amélioration de mitigation des dégats qui réduit les points de vue perdus par 2.
 		Robot robot2= new RobotAmeliorationDegatsRecu(new RobotAmeliorationBouclier(new RobotImpl.RobotBuilder("robot2").puissanceCanon(9).puissanceBouclier(3).frequenceTir(90).build()));
+		*/
 
-		fight(robot1, robot2);
+		FlyweightFactory flyweight = new FlyweightFactory();
+		flyweight.ajoutePreconfig("Pic-vert", new PicVertFactory());
+		flyweight.ajoutePreconfig("Grosse Berta", new GrosseBertaFactory());
+		flyweight.ajoutePreconfig("Tank", new TankFactory());
+
+		Robot picvert = flyweight.creerRobot("Pic-vert");
+		Robot GrosseBerta = flyweight.creerRobot("Grosse Berta");
+
+		fight(picvert, GrosseBerta);
 	}
 }
