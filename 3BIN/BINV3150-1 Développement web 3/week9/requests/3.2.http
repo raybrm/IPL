@@ -1,0 +1,6 @@
+@hostname = localhost
+@port = 3001
+@host = {{hostname}}:{{port}}
+@name = info 
+
+GET http://{{host}}/{{name}} HTTP/1.1

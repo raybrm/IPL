@@ -1,0 +1,6 @@
+@hostname = localhost
+@port = 3001
+@host = {{hostname}}:{{port}}
+@name = persons 
+
+GET http://{{host}}/api/{{name}} HTTP/1.1
