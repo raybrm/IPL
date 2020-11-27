@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {Switch, Route, Link, useRouteMatch, useHistory} from 'react-router-dom'
+import {Switch, Route, Link, useRouteMatch, useHistory, Redirect} from 'react-router-dom'
 
 const Menu = () => {
   const padding = {
@@ -28,6 +28,8 @@ const AnecdoteList = ({ anecdotes }) => (
 )
 
 const Anecdote = ({ anecdote }) => {
+  if (!anecdote)
+    return <Redirect to='/'/>
   return (
     <div>
       <h2>{anecdote.content}</h2>
@@ -132,10 +134,10 @@ const App = () => {
     setAnecdotes(anecdotes.concat(anecdote))
     setNotification(`a new anecdote ${anecdote.content} created`)
   }
-  
-  useEffect(
+
+  useEffect( // execute lorsque notification change
     () => {
-      if (!notification)
+      if (!notification) // evite de lancer le setTimeout la première fois
         return
       setTimeout(
         () => {
