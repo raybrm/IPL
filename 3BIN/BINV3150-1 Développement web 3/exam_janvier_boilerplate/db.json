@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "_id" : ObjectId("5ff747b650d1c4c13e1446f2"),
+      "name" : "un incendie ravage"
+    },
+    {
+      "_id" : ObjectId("5ff747e450d1c4c13e1446f3"),
+      "name" : "des météorites détruisent"
+    },
+    {
+      "_id" : ObjectId("5ff7480c50d1c4c13e1446f4"),
+      "name" : "une bombe atomique détruit"
+    },
+    {
+      "_id" : ObjectId("5ff7492f50d1c4c13e1446f6"),
+      "name" : "la famine touche"
+    },
+    {
+      "_id" : ObjectId("5ff7499a50d1c4c13e1446fb"),
+      "name" : "les sauterelles envahissent"
+    },
+    {
+      "_id" : ObjectId("5ff77dd7987e277654406929"),
+      "name" : "une pandémie de Covid-21 touche"
+    }
+  ],
+  "places": [
+    {
+      "_id" : ObjectId("5ff7495550d1c4c13e1446f8"),
+      "name" : "l'IPL"
+    },
+    {
+      "_id" : ObjectId("5ff7496250d1c4c13e1446f9"),
+      "name" : "la Belgique"
+    },
+    {
+      "_id" : ObjectId("5ff7497050d1c4c13e1446fa"),
+      "name" : "l'Europe"
+    },
+    {
+      "_id" : ObjectId("5ffafa1b17236fab24809748"),
+      "name" : "Bruxelles"
+    }
+  ]
+}
