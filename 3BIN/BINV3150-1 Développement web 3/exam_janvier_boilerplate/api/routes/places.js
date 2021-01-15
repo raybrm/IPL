@@ -8,18 +8,6 @@ router.get('/', (request, response, next) => {
         .catch(error => next(error))
 })
 
-//Find by id
-router.get('/:id', (request, response, next) => {
-    Place.findById(request.params.id)
-        .then(place => {
-            if (place) {
-                response.json(place)
-            } else {
-                response.status(404).end()
-            }
-        })
-        .catch(error => next(error))
-})
 
 //Delete one
 router.delete('/:id', (request, response, next) => {

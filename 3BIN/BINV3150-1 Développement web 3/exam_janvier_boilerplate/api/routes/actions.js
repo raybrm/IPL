@@ -8,18 +8,6 @@ router.get('/', (request, response, next) => {
         .catch(error => next(error))
 })
 
-//Find by id
-router.get('/:id', (request, response, next) => {
-    Action.findById(request.params.id)
-        .then(action => {
-            if (action) {
-                response.json(action)
-            } else {
-                response.status(404).end()
-            }
-        }).catch(error => next(error))
-})
-
 //Delete one
 router.delete('/:id', (request, response, next) => {
     Action.findByIdAndRemove(request.params.id)
@@ -38,7 +26,7 @@ router.post('/', (request, response, next) => {
     const body = request.body 
     //check body 
     const errorMessage = []
-    if (!body.name) errorMessage.push("name must be present")
+    if (!body.name || body.name.length < 3) errorMessage.push("name must be present and at least 3 characters")
     if (errorMessage.length > 0) {
         response.status(422).json({errorMessage})
         return

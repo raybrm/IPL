@@ -1,0 +1,8 @@
+@hostname = localhost
+@port = 3001
+@placeId = 6001964b1d887f590c703b35
+@host = http://{{hostname}}:{{port}}
+
+###
+
+DELETE  {{host}}/places/{{placeId}} HTTP/1.1

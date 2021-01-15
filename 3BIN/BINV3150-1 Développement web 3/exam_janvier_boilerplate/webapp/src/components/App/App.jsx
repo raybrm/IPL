@@ -1,19 +1,15 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 import Calendar from 'components/Calendar/Calendar';
 import Navbar from 'components/Navbar/Navbar';
 import Settings from 'components/Settings/Settings';
 
 
-import apContext from 'contexts/disastersContext'
 import { Route, Switch } from 'react-router-dom';
 
 
 const App = () => {
 
-  const { actions } = useContext(apContext)
-
-  //console.log(actions)
   return (
     <div>
         <Navbar />
@@ -24,8 +20,10 @@ const App = () => {
           <Route path='/config'>
             <Settings />
           </Route>
+          <Route path='/'>
+            <Calendar />
+          </Route>
         </Switch>
-        {actions.map(action => <p key={action.id}>{action.name}</p>)}
     </div>
   );
 }

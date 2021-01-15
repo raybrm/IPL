@@ -11,9 +11,8 @@ const ProviderWrapper = (props) => {
 
     const [ actions, setActions ] = useState([])
     const [ places, setPlaces ] = useState([])
-    //const [ nbDisasters, setNbDisasters] = useState(JSON.parse(localStorage.getItem('nbDisaster')))
-
-    //console.log(nbDisasters)
+    const [ disasters, setDisasters ] = useState([]) 
+    const currentYear = 2021
 
     const initialActionsLoad = () => {
         actionsService.retrieve()
@@ -29,37 +28,57 @@ const ProviderWrapper = (props) => {
     }
     useEffect(initialPlacesLoad, [])
     
-    
-    const createDisasters = () => { // mettre dans le composant calendar
-        console.log("ici")
-        if (places.length > 0 && actions.length > 0){ // if (places !== undefined) 
-            console.log("traitement")
-            console.log(randomUtils.randomItem(actions))
-            console.log(randomUtils.randomItem(places))
-            console.log(randomUtils.randomDate('2021'))
+    const buildDisasters = (count) => {
+
+        const myDisaters = []
+        for (let index = 0; index < count; index++) {
+            const DisasterDate = randomUtils.randomDate(currentYear)
+            const newDisaster = {
+                id : (Math.random() * 999999).toFixed(0),
+                name: `${randomUtils.randomItem(actions).name} ${randomUtils.randomItem(places).name }`,
+                date : DisasterDate
+            }
+            myDisaters.push(newDisaster)
         }
+        setDisasters(myDisaters)
     }
 
-    //createDisasters()
 
-    // Ajout d'une action en db
-    const addAction = (name) => {
-        const newAction = {
-            name
-        }
-        actionsService.addAction(newAction)
-                    .then(insertedAction => setActions(actions.concat(insertedAction)))
-                    .catch(error => console.error("Unable to insert data ", error))
-        
+    const sortingDisasters = () => {
+        if (disasters !== undefined) {
+            return disasters.sort((a,b) => a.date.getTime() - b.date.getTime())
+        } 
     }
 
+    const sortedDisastersByDate = sortingDisasters()
+
+    const addPlace = (name) => {
+        const newPlace = {name}
+        placesService.addPlace(newPlace)
+                    .then(insertedPlace => {setPlaces(places.concat(insertedPlace))})
+                    .catch(error => console.error("Unable to insert data", error))
+    }
+
+    const deletePlace = (id) => {
+        const index = places.findIndex(place => place.id === id)
+        if (index === -1) {
+            console.warn("place item with provided id does not exist")
+            return
+        }
+        const newPlaces = [...places]
+        newPlaces.splice(index, 1)
+        placesService.deletePlace(id)
+                    .then(() => setPlaces(newPlaces))
+                    .catch(error => console.error("Unable to delete data", error))
+    }
 
     const exposedValues = {
-        actions,
-        setActions,
         places,
         setPlaces,
-        addAction
+        buildDisasters, 
+        sortedDisastersByDate,
+        addPlace,
+        deletePlace
     }
 
     return (

@@ -1,35 +1,37 @@
-import React, { useContext } from 'react';
+import React, {useState, useContext } from 'react';
 
 import apContext from 'contexts/disastersContext'
 
 const Settings = () => {
 
-  const { addAction } = useContext(apContext)
+  const { places, addPlace, deletePlace } = useContext(apContext)
 
-  const handleClick = (event) => { // gère le clic 
-    event.preventDefault()
-    console.log("test")
-    addAction("actiontest")
-    // appelé une méthode ici
-  }
-  /*
-  const handleSubmit = (e) => { // gère le clic mais sur un bouton formulaire ()
+  const [placeNameLabel, setPlaceNameLabel] = useState('')
+
+  const handleChange = (e) => {
     e.preventDefault();
-    addOpinion(label);
-    setLabel("");
+    setPlaceNameLabel(e.target.value)
   }
 
-  const handleLabelChange = (e) => {
-    e.preventDefault();
-    const newValue = e.target.value;
-    setLabel(newValue);
+  const handleClickAddButton = (e) => {
+    e.preventDefault()
+    addPlace(placeNameLabel)
+    setPlaceNameLabel('')
   }
-  */
+
+  const handleClickDelButton = (e) => {
+    e.preventDefault()
+    deletePlace(e.target.id)
+  }
 
   return (
     <div>
       <h1>Configuration</h1>
-      <button onClick={handleClick}>Ajout action</button>
+      <h2>Lieux</h2>
+      <ul>
+        {places.map(place => <li key={place.id}>{place.name}<button id={place.id} onClick={handleClickDelButton}>Supprimer</button></li>)}
+      </ul>
+      <input value={placeNameLabel} onChange={handleChange}/> <button onClick={handleClickAddButton}>Ajouter</button>
     </div>
   )
 

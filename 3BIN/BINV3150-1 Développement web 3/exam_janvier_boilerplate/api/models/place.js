@@ -13,4 +13,4 @@ placeSchema.set('toJSON', {
 })
 
 // export model 
-module.exports = mongoose.model('Place', placeSchema, 'places') // places correspond au nom de la collection dans mangodb
+module.exports = mongoose.model('Place', placeSchema)

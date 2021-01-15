@@ -1,0 +1,8 @@
+@hostname = localhost
+@port = 3001
+@actionId = 600194566e6d8180c8028e1b
+@host = http://{{hostname}}:{{port}}
+
+###
+
+DELETE  {{host}}/actions/{{actionId}} HTTP/1.1

@@ -4,12 +4,12 @@
 
 ###
 
-POST {{host}}/actions HTTP/1.1
+POST {{host}}/places HTTP/1.1
 Accept: application/json
 Content-Type: application/json
 
 {
-  "name": "les sauterelles envahissent"
+  "name": "test"
 }
 
 

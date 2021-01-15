@@ -9,12 +9,7 @@ const retrieve = () => {
     return client.get("/").then(response => response.data);
 }
 
-const addAction = (newAction) => {
-    return client.post("/", newAction).then(response => response.data)
-}
-
 
 export {
-    retrieve,
-    addAction
+    retrieve
 }
