@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BadButton from "../Buttons/BadButton";
+import BadButton from "components/Buttons/BadButton";
 import GoodButton from "../Buttons/GoodButton";
 import OkButton from "../Buttons/OkButton";
 import ResetButton from "../Buttons/ResetButton";

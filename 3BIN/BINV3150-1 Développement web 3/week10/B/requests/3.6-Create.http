@@ -22,7 +22,7 @@ Content-Type: application/json
 
 {
   "name": "Jane Doe",
-  "number": ""
+  "phone": ""
 }
 
 
@@ -34,6 +34,6 @@ Content-Type: application/json
 
 {
   "name": "Arto Hellas",
-  "number": "99-99-9999"
+  "phone": "99-99-9999"
 }
 

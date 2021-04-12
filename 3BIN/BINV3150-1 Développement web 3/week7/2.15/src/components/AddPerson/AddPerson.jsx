@@ -1,6 +1,7 @@
 import React from "react";
 
 const Person = ({ newName, setNewName, addPerson, newPhone, setNewPhone }) => {
+  
   const handleAddPerson = (event) => {
     event.preventDefault();
     addPerson();

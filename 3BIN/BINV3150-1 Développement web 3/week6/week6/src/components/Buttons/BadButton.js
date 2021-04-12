@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import countersButtons from "../../contexts/countersContext";
+import countersButtons from "contexts/countersContext";
 
 const BadButton = () => {
 

@@ -2,11 +2,11 @@ import React from "react";
 
 const SearchCountries = ({ filterCountries, setFilterCountry}) => {
 
-    const handleForm = (event) => {
+    const handleForm = (event) => { // évite de rafrachir la page après avoir appuyé sur Enter
         event.preventDefault()
     }
 
-    const handleCountrieSearchChange = (event) => {
+    const handleCountrieSearchChange = (event) => { // la fonction appelé quand l'input change
         setFilterCountry(event.target.value)
     }
 

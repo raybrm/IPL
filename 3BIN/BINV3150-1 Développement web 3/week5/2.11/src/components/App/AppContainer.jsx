@@ -18,13 +18,13 @@ const AppContainer = () => {
           console.log('promise fulfilled')
           setPersons(response.data)
         })
-  }, [])
+  }, []) // appelé qu'une seule fois après le premier rendu
 
   const addPerson = () => {
     const person = {
       name: newName
     }
-    setPersons(persons.concat(person))
+    setPersons(persons.concat(person)) // concat crée une nouvelle copie de l'array avec l'objet rajouté
     setNewName('')
   }
   

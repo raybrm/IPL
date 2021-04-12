@@ -28,8 +28,8 @@ const AnecdoteList = ({ anecdotes }) => (
 )
 
 const Anecdote = ({ anecdote }) => {
-  if (!anecdote)
-    return <Redirect to='/'/>
+  if (!anecdote) // si anecdote est vide
+    return <Redirect to='/'/> // redirige vers la page home
   return (
     <div>
       <h2>{anecdote.content}</h2>
@@ -79,7 +79,7 @@ const CreateNew = (props) => {
       info,
       votes: 0
     })
-    history.push('/')
+    history.push('/') //change l'url en '/' et donc on sera redirect sur la home page -> hook function
   }
 
   return (
@@ -123,8 +123,9 @@ const App = () => {
     }
   ])
 
-  const match = useRouteMatch('/anecdotes/:id')
-  const anecdote = match ? anecdotes.find(ad => ad.id === match.params.id) : null
+  const match = useRouteMatch('/anecdotes/:id') // hook:  If the url matches /anecdotes/:id, the match variable will contain an object from which we can access the parametrized part of the path
+  const anecdote = match ? anecdotes.find(ad => ad.id === match.params.id) : null // si match n'est pas vide 
+  console.log(anecdote)
 
   const [notification, setNotification] = useState('')
 
@@ -137,11 +138,9 @@ const App = () => {
 
   useEffect( // execute lorsque notification change
     () => {
-      if (!notification) // evite de lancer le setTimeout la première fois
-        return
-      setTimeout(
-        () => {
-          setNotification(``)
+      if (!notification) return // evite de lancer le setTimeout la première fois --> donc s'il est vide ne lance pas
+      setTimeout(() => {
+          setNotification('')
         }, 10000
       )
     }, [notification]
@@ -174,11 +173,11 @@ const App = () => {
           <Route path='/create'>
             <CreateNew addNew={addNew}/>
           </Route>
-          <Route path='/anecdotes/:id'>
+          <Route path='/anecdotes/:id'> 
             <Anecdote anecdote={anecdote} />
           </Route>
           <Route path='/anecdotes'>
-            <AnecdoteList anecdotes={anecdotes} />
+            <AnecdoteList anecdotes={anecdotes} /> 
           </Route>
           <Route path='/'>
             <AnecdoteList anecdotes={anecdotes} />

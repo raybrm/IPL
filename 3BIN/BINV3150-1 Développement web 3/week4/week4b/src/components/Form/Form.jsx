@@ -10,8 +10,9 @@ const Form = ({newName,changeName, addPerson, newNumber, changeNumber}) => {
         addPerson()
     } 
     
+    // A chaque fois que l'input change cette fonction est appelé
     const handleNameChange = (event) => {
-        changeName(event.target.value)
+        changeName(event.target.value) // correspond à SetName()
     }
 
     const handleNumberChange = (event) => {

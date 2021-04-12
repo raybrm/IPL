@@ -1,6 +1,6 @@
 npx create-react-app <nameFolder>
-//npm install -g json-server     =>sur le repertoire de travail
-npx json-server --port 3001 --watch db.json     => sur le repertoire de travail
+npm install -g json-server     =>sur le repertoire de travail
+json-server --port 3001 --watch db.json     => sur le repertoire de travail
 npm install axios        => sur le repertoire de travail
 npm install json-server --save-dev     => sur le repertoire de travail "server": "json-server -p3001 --watch db.json"
 npm run server         => sur le repertoire de travail
@@ -10,4 +10,19 @@ commandes création serveur:
 
 npm init
 npm install express
-npm install --save-dev nodemon
+npm install --save-dev nodemon (pour pas devoir relancer le serveur à chaque fois)
+npm install morgan
+
+dans le package.json -->  	"start": "node index.js"	npm start
+			 	"dev": "nodemon index.js",	npm run dev
+
+Commandes mango db:
+
+Connection à la base de données mongo db
+npm install mongoose
+npm install dotenv
+
+
+Commandes pour la gestion de route :
+
+npm install react-router-dom

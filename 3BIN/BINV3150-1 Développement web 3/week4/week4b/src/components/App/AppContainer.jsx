@@ -9,9 +9,9 @@ const AppContainer = () => {
         { name: 'Dan Abramov', number: '12-43-234345' },
         { name: 'Mary Poppendieck', number: '39-23-6423122' }
       ])
-    const [ newName, setNewName ] = useState('enter a name ...')
-    const [ newNumber, setNewNumber] = useState('enter a number...')
-    const [ filter, setFilter] = useState('')
+    const [ newName, setNewName ] = useState('enter a name ...') // pour les input
+    const [ newNumber, setNewNumber] = useState('enter a number...') // pour l'input
+    const [ filter, setFilter] = useState('') // pour l'input
 
     function isPersonEqual(obj1, obj2) {
         return obj1.name === obj2.name
@@ -26,6 +26,7 @@ const AppContainer = () => {
             number : newNumber
         }
 
+        // utiliser find ? 
         persons.forEach((person) => {
             isInArrayPerson = isPersonEqual(person, newPerson)
         })

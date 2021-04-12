@@ -35,6 +35,22 @@ const AppContainer = () => {
           setNewPhone('')
         })
   }
+
+  const delPerson = (person) => {
+    const index = persons.findIndex(p => p.id === person.id) // la position dans le liste 
+    const resultat = window.confirm("Delete" + person.name + "?")
+    if (resultat) {
+      personService
+        .deletePerson(person.id)
+        .then(response => {
+          console.log("Del sucess !")
+          const copyPerson = [...persons] // modifie sur une autre réference que celle dans l'état
+          copyPerson.splice(index,1)
+          setPersons(copyPerson)
+        })
+        .catch(error => console.error("Unable to delete data", error))
+    }
+  }
   
   return (
     <App
@@ -44,6 +60,7 @@ const AppContainer = () => {
       addPerson={addPerson}
       newPhone={newPhone}
       setNewPhone={setNewPhone}
+      delPerson={delPerson}
     />
   )
 

@@ -1,3 +1,5 @@
+// RESTful http api
+
 console.log("hello world")
 
 const { response } = require('express')
@@ -6,14 +8,14 @@ const morgan = require('morgan')
 const app = express()
 const PORT = 3001
 
-morgan.token('custom', function(req, res){ // définit notre propre token 
+morgan.token('custom', function(req, res){ // définit notre propre token pour le middleware
     if (req.method === 'POST'){
         return JSON.stringify(req.body)
     }
 })
 
 app.use(express.json())
-app.use(morgan(':method :url :status :res[content-length] - :response-time ms :custom'))
+app.use(morgan(':method :url :status :res[content-length] - :response-time ms :custom')) //middleware
 
 let persons = [  
     {id: 1,    name: "Arto Hellas",  number: "040-123456"}, 
@@ -23,6 +25,8 @@ let persons = [
 ]
 
 
+// request  => ce qu'on reçoit du client
+// response => ce qu'on renvoie au client 
 app.get('/', (request, response) => {
     response.send('<h1>Hello World!</h1>')
   })
@@ -36,7 +40,7 @@ app.post('/api/persons', (request, response) => {
   
     if (!body.name || !body.phone) {
       return response.status(422).json({ 
-        error: 'name and phone missing' 
+        error: 'name or phone missing' 
       })
     }
 
@@ -61,7 +65,7 @@ app.post('/api/persons', (request, response) => {
 })
 
 app.get('/api/persons/:id', (request, response) => {  
-    const id = Number(request.params.id)
+    const id = Number(request.params.id) // on met le l'id en nombre car on le reçoit en string
     const person = persons.find(person => person.id === id)
     if (person) {
         response.json(person)
@@ -79,7 +83,7 @@ app.get('/info', (request, response) => {
 
 app.delete('/api/persons/:id', (request, response) => {
     const id = Number(request.params.id)
-    persons = persons.filter(person => person.id !== id)
+    persons = persons.filter(person => person.id !== id) // moins performant qu'un splice, évite de créer de nouveau objet 
     response.status(204).end()
 })
 

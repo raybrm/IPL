@@ -7,7 +7,7 @@ const OpinionItem = ({
 }) => {
 
     const {
-        voteForOpinion
+        voteForOpinion // fonction 
     } = useContext(opinionsContext);
 
     const handleClick = () => {

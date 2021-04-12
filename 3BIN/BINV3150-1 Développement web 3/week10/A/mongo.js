@@ -8,12 +8,12 @@ if (process.argv.length < 3) {
 const password = process.argv[2]
 const databasename = 'phonebook'
 
-const url =
-  `mongodb+srv://rayan_barman:${password}@cluster0.itu2i.mongodb.net/${databasename}?retryWrites=true&w=majority`
+const url = `mongodb+srv://rayanBarman:${password}@cluster0.xnokp.mongodb.net/${databasename}?retryWrites=true&w=majority`
 
+// connection à la base de donnée  
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
 
-// la structure d'une personne
+// la structure d'une personne => shema
 const personSchema = new mongoose.Schema({
   name: String,
   phone: String,
@@ -26,7 +26,7 @@ const person = new Person({
   phone: process.argv[4],
 })
 
-//Add à la BD
+//ajout à la BD
 if (process.argv.length === 5) {
     person.save().then(result => {
         console.log('added '+ result.name + ' number ' + result.phone + ' to phonebook')
@@ -34,12 +34,14 @@ if (process.argv.length === 5) {
       })      
 }
 
+// retrieve from database
 if (process.argv.length === 3) {
-    // Recupère de la DB
+    // Person.find({name : "veigo"})
     Person.find({}).then(result => {
     console.log("phonebook:")
     result.forEach(person => {
         console.log(person.name + ' ' + person.phone) 
+        console.log(person)
     })
     mongoose.connection.close()
     })

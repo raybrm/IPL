@@ -16,6 +16,7 @@ const ProvideWrapper = (props) => {
 
     useEffect(initialLoad, [])// fait le la toute première fois uniquement
 
+    // Modifie une tâche
     const setTodo = (id, label, done, priority) => { //modifie les trois d'un coup même si il y a qu'un seul attribut qui change à la fois 
         const index = toDoList.findIndex((todo) => todo.id === id)
         if (index === -1) {

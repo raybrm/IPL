@@ -15,7 +15,7 @@ const App = (props) => { // destructuring le props... props = {notes : array[]}
             .get('http://localhost:3001/notes')
             .then(response => {
                 console.log('promise fulfilled')
-                setNotes(response.data)
+                setNotes(response.data) // refait le rendu du composant
             })
 
     }
