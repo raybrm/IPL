@@ -1,0 +1,10 @@
+- Qu'est-ce qu'une transaction ? (!détails)
+    * Quels sont ses principaux composants?
+    * Quelles sont les différentes étapes d'exécution d'une transaction simple?
+
+- Quelle est la différence entre écran de sélection et un écran ? (globalement + expliquer un select options)
+- Qu'est ce qu'un ordre de transport ( attention il faut tout dire et être rigoureux dans ses explication)
+- Citez les principes Fiori ( + explication role-based)
+- Expliquez le mécanisme des dynpro
+    *Qu’est-ce qu’un module pool?
+- Qu est ce qu un mandant ? ( tout expliquer)

@@ -1,0 +1,253 @@
+*&---------------------------------------------------------------------*
+*& Report ZZT_002_DIMENSION
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT ZZT_002_DIMENSION.
+*Ecrire un programme ZZT_xxx_DIMENSION
+*
+*Sélection :
+*-  Langue (unique): le programme fonctionnera en anglais et allemand uniquement (contrôler la langue entrée)
+*     Ex : EN
+*-  Exposants des unités de longueur, masse, courant électrique (valeurs uniques)
+*et temps (plusieurs valeurs permises).
+*Les autres unités ne sont pas considérées, valeur 0 pour l’exposant.
+*     Ex : Longeur 1, Temps -1
+*Vérifier à l’écran de sélection, pour chacune des dimensions (uniques), que les exposants voulus existent dans la table T006D.
+*     Ex : Longueur compris entre -3 et 3, temps entre -1 et 1
+*
+*Liste :
+*Ci-après, comme libellé avant chaque valeur (Unité, Dimension, …), on imprime le libellé du champ obtenu par le function module
+*  DDIF_FIELDINFO_GET
+*  on fournit les paramètres TABNAME et LFIELDNAME
+*  avec le nom de la table et du champ d’où vient l’information,
+*  le module de fonction retourne WA_DFIES-SCRTEXT_M
+*  au lieu de se servir come d’habitude d’un text element.
+*    Ex : « Dimension » vient de la table T006D champ DIMID
+*
+*-  Si une entrée de la Table T006D correspond aux dimensions demandées,
+*     Ex : Longueur 1, Temps -1
+*donner le libellé correspondant (Goto / Text table)
+*     Ex : Speed
+*et donner en premier le libellé technique (MSEH6) et le texte (MSEHL) de l’unité du système international correpondant,
+*     Ex : m/s Meter/second
+*afficher ensuite les autres unités de même dimension de la table des unités.
+*     Ex : mm/h
+*Sinon, informer l’utlisateur de la non-disponibilité de cette dimension.
+*
+*
+*
+
+** BARMAN Rayan **
+TYPES: BEGIN OF ta_dimension, " structure
+         dimid TYPE t006d-dimid,
+         leng  TYPE t006d-leng,
+         mass  TYPE t006d-mass,
+         timex TYPE t006d-timex,
+         ecurr TYPE t006d-ecurr,
+         mssie TYPE t006d-mssie, " unité SI
+         msehi TYPE t006-msehi,
+         msehl TYPE t006a-msehl,
+         mseh6 TYPE t006a-mseh6,
+         txdim TYPE t006t-txdim,
+       END OF ta_dimension.
+
+
+DATA: z            TYPE i,
+      wa_t006d     type t006d,
+      wa_dimension TYPE ta_dimension,
+      wt_dimension TYPE STANDARD TABLE OF ta_dimension.
+
+PARAMETERS: p_langu TYPE sy-langu OBLIGATORY DEFAULT 'E',
+            p_LENG  TYPE t006d-leng,
+            p_mass  TYPE t006d-mass.
+
+SELECT-OPTIONS: s_timex FOR wa_t006d-timex.
+
+PARAMETERS: p_ecurr type t006d-ecurr.
+
+
+
+
+AT SELECTION-SCREEN on p_langu. "on met 'on p_langu' pour pour afficher un message d'erreur et fermer les input des autres variables
+  IF p_langu <> 'E' AND p_langu <> 'D'.
+    MESSAGE 'The language need to be EN or DE'(001) TYPE 'E'.
+  ENDIF.
+
+*/////////////////////////////////////////////////
+AT SELECTION-SCREEN on P_LENG. "verification à l'écran de selection
+
+  data: w_maxLeng type t006d-leng,
+        w_minLeng type t006d-leng.
+
+  SELECT MAX( leng ) MIN( leng ) into (w_maxLeng, w_minLeng) FROM t006d "Permet de vérifier que les exposant sont entre le min et le max
+    WHERE   temp = 0
+    AND     molqu = 0
+    and     light = 0.
+
+  IF not p_leng BETWEEN  w_minLeng and w_maxLeng.
+    MESSAGE e001(zzt_000) WITH  'The exponent must be between' W_MINLENG 'and' W_MAXLENG. "Message perso avec 4 &
+  endif.
+
+*/////////////////////////////////////////////////
+AT SELECTION-SCREEN on p_mass.
+
+  data: w_maxMass type t006d-mass,
+        w_minMass type t006d-mass.
+
+  SELECT MAX( mass ) MIN( mass ) into (w_maxMass, w_minMass) FROM t006d
+    WHERE temp = 0
+     and  molqu = 0
+     and light = 0.
+
+  IF p_mass < W_MINMASS or p_mass > W_MAXMASS.
+    MESSAGE e001(zzt_000) WITH  'The exponent must be between' w_minMass 'and' w_maxMass.
+  endif.
+
+
+*/////////////////////////////////////////////////
+AT SELECTION-SCREEN on P_ECURR.
+
+  data: w_maxEcurr type t006d-ECURR,
+        w_minEcurr type t006d-ECURR.
+
+  SELECT MAX( ecurr ) MIN( ecurr ) into (W_MAXECURR, W_MINECURR) FROM t006d
+    where temp = 0
+      and molqu = 0
+      and light = 0.
+
+  IF P_ECURR < W_MINECURR or P_ECURR > W_MAXECURR.
+    MESSAGE e001(zzt_000) WITH  'The exponent must be between' w_minEcurr 'and' w_maxEcurr.
+  endif.
+
+
+START-OF-SELECTION. " début du programme
+
+  SELECT        *  FROM  T006D INTO CORRESPONDING FIELDS OF WA_DIMENSION
+         WHERE  LENG   = P_LENG
+         AND    MASS   = P_MASS
+         AND    TIMEX  IN S_TIMEX
+         AND    ECURR  = P_ECURR
+         AND    TEMP   = 0
+         AND    MOLQU  = 0
+         AND    LIGHT  = 0.
+
+    check wa_dimension-mssie is not INITIAL. " si mssie est pas vide alors on continue sinon on passe à la prochaine itération.
+
+
+    SELECT SINGLE txdim FROM  T006T INTO WA_DIMENSION-txdim
+           WHERE    SPRAS  = p_langu
+           AND    DIMID  = wa_dimension-dimid.
+
+    IF sy-subrc <> 0. " on a rien trouvé
+      wa_dimension-txdim = wa_dimension-dimid.
+    ENDIF.
+
+    WA_DIMENSION-MSEHI = WA_DIMENSION-mssie.
+
+    append wa_dimension TO WT_DIMENSION.
+
+
+
+    SELECT        * FROM  T006 INTO CORRESPONDING FIELDS OF WA_DIMENSION
+           WHERE  MSEHI  <> WA_DIMENSION-MSSIE
+           AND    DIMID  = WA_DIMENSION-DIMID.
+
+      CLEAR wa_dimension-mssie.
+
+      append wa_dimension TO WT_DIMENSION.
+
+    ENDSELECT.
+
+
+  ENDSELECT.
+
+  IF sy-subrc <> 0.
+*     WRITE :/ 'this dimension is still missing in the system'(002) COLOR 6.
+    MESSAGE 'this dimension is still missing in the system' TYPE 'S' DISPLAY LIKE 'E'. " affichque au prochain écran mais comme un message d'erreur"
+    RETURN.
+  ENDIF.
+
+*    DATA : w_dimid like wa_t006d-dimid.
+  DATA : w_dimid TYPE t006d-dimid.
+  DATA : wa_t006a type t006a.
+
+  LOOP AT WT_DIMENSION into WA_DIMENSION.
+
+    IF w_dimid <> WA_DIMENSION-dimid.
+
+      w_dimid = WA_DIMENSION-dimid.
+
+      skip. " saut une ligne blanche
+      WRITE :/ WA_DIMENSION-txdim COLOR 5.
+
+      PERFORM write_exponent USING: 'LENG'  wa_dimension-leng,
+                                    'MASS'  wa_dimension-mass,
+                                    'TIMEX' wa_dimension-timex,
+                                    'ECURR' wa_dimension-ecurr.
+
+    ENDIF.
+
+
+    SELECT SINGLE * FROM  T006A INTO CORRESPONDING FIELDS OF WA_T006A
+           where    SPRAS  = P_LANGU
+           AND    MSEHI  = WA_DIMENSION-msehi.
+
+    IF sy-subrc <> 0.
+      WA_T006A-MSEH6 = '*'.
+    ENDIF.
+
+*    write :/ WA_DIMENSION-MSEHI.
+    WRITE:/  WA_T006A-MSEH6, WA_T006A-MSEHL.
+
+
+  ENDLOOP.
+
+
+*  " cree une procedure dans laquelle on appel un module de fonction
+FORM write_Exponent USING f_lfieldname TYPE dfies-LFIELDNAME
+                          f_exponent   TYPE int2.
+
+  DATA: wa_defies TYPE dfies.
+
+  CALL FUNCTION 'DDIF_FIELDINFO_GET' " Ce module prend un champ d'une table avec une langue et renvoie le libelé du data element associé au champ donnée
+    EXPORTING
+      TABNAME        = 'T006D'
+*     FIELDNAME      = ''
+      LANGU          = P_LANGU
+      LFIELDNAME     = F_LFIELDNAME
+*     ALL_TYPES      = ' '
+*     GROUP_NAMES    = ' '
+*     UCLEN          =
+*     DO_NOT_WRITE   = ' '
+    IMPORTING
+*     X030L_WA       =
+*     DDOBJTYPE      =
+      DFIES_WA       = wa_defies
+*     LINES_DESCR    =
+*     TABLES
+*     DFIES_TAB      =
+*     FIXED_VALUES   =
+    EXCEPTIONS
+      NOT_FOUND      = 1
+      INTERNAL_ERROR = 2
+      OTHERS         = 3.
+  IF SY-SUBRC <> 0.
+    CLEAR WA_DEFIES.
+    WA_DEFIES-SCRTEXT_M = F_LFIELDNAME.
+  ENDIF.
+
+  WRITE:/ WA_DEFIES-SCRTEXT_M COLOR 1 no-GAP,':' ,F_EXPONENT.
+ENDFORM.
+*
+*
+*
+**  PERFORM add USING 1 2 CHANGING Z.
+**  WRITE z.
+**
+**"form est une sorte de procédure
+**FORM add USING fi type i
+**               fj type i
+**         CHANGING x type i.
+**  x = fi + fj.
+**ENDFORM.

@@ -1,0 +1,204 @@
+* BARMAN Rayan
+*&---------------------------------------------------------------------*
+*& Report ZZT_E002_EXA
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+*1ère partie---------------------------------------------------------------------------
+*
+*  Les "Plants" sont des endroits où sont implantées des divisions de production.
+*
+*  Ecrire un programme multilingue (anglais et français)
+*  qui affiche une liste A.L.V. de ces "plants",
+*  triés par code,
+*  contenant les colonnes :
+*  -  code du plant, nom du plant,
+*  -  code et nom du pays d’implantation
+*  -  coche indiquant si ce pays fait partie de l'Union Européenne
+*     (d'après le flag 'Indicator: European Union Member?')
+*
+*  Le programme permettra la sélection
+*  - par code plant, par code pays du plant
+*  - et une case à cocher qui permet éventuellement de se limiter
+*    aux pays de l'Union Européenne (cochée par défaut).
+*
+*  Un message à l'écran de sélection prévient l'utilisateur au cas où aucun plant
+*  ne répond aux conditions de sélection.
+*
+*  Tables:
+*  T001W (plant, nom, pays, localité),
+*  T005  (pays)
+*
+*  Module de fonction suggéré pour affichage de l’A.L.V. : REUSE_ALV_GRID_DISPLAY
+*  Messages utilisables: par ex. 001 (classe ZZT_000), 009 (classe WD)
+*
+*
+*
+*  2ème partie du même programme-----------------------------------------------------
+*
+*  Permettez à l'utilisateur, lorsqu'il double-clique sur une des lignes de la liste,
+*  d'obtenir le détail de l'adresse où se trouve le plant.
+*  Un bouton radio à l’écran de sélection permet de déterminer l’option choisie
+*
+*  -  1ère option : Se servir du module de fonction ADDRESS_SHOW_PRINTFORM
+*     avec ADDRESS_TYPE = ‘1’, ADDRESS_NUMBER = T001W-ADRNR, SENDER_COUNTRY = ‘BE’
+*
+*  -  2ème option : appel de la transaction ZZT_PLANT qui affiche un écran de détail.
+
+
+
+REPORT ZZT_E002_EXA.
+
+TYPES: BEGIN OF ta_internal_plant,
+          werks   TYPE t001w-werks,
+          name1   TYPE t001w-name1,
+          land1   TYPE t001w-land1,
+          landx   TYPE t005t-landx,
+          adrnr   TYPE t001w-adrnr,
+          xegld   TYPE t005-xegld,
+       END OF ta_internal_plant.
+
+DATA: wa_plant TYPE ta_internal_plant,
+      wt_plant TYPE STANDARD TABLE OF ta_internal_plant.
+
+
+SELECT-OPTIONS: s_plC   FOR wa_plant-werks,
+                s_pays   FOR wa_plant-land1.
+
+PARAMETERS: p_check AS CHECKBOX DEFAULT 'X',
+            p_btn1  RADIOBUTTON GROUP g1 DEFAULT 'X',
+            p_btn2  RADIOBUTTON GROUP g1.
+
+AT SELECTION-SCREEN.
+  DATA : w_count TYPE I VALUE 0.
+
+  SELECT count(*) FROM  T001W INTO w_count
+         WHERE    WERKS   IN s_plC AND land1 IN s_pays.
+
+  IF w_count = 0.
+    MESSAGE 'Nothing found, enter a correct plant by code or name'(004) TYPE 'E'.
+  ENDIF.
+
+START-OF-SELECTION.
+  SELECT werks  name1 land1 adrnr FROM  T001W INTO (wa_plant-werks, wa_plant-name1, wa_plant-land1, wa_plant-adrnr)
+               WHERE  WERKS  IN s_plC
+               AND land1 IN s_pays.
+
+    SELECT SINGLE landx FROM  T005T INTO wa_plant-landx
+           WHERE    SPRAS  = sy-LANGU
+           AND      LAND1  = wa_plant-land1.
+
+    IF sy-subrc <> 0.
+      wa_plant-landx = ''.
+    ENDIF.
+
+    SELECT SINGLE xegld FROM  T005 INTO wa_plant-xegld
+           WHERE    LAND1  = wa_plant-land1.
+    .
+
+    IF p_check = 'X' AND wa_plant-xegld = ' '.
+      CLEAR wa_plant.
+      CONTINUE.
+    ENDIF.
+
+    APPEND wa_plant to wt_plant.
+    CLEAR wa_plant.
+
+  ENDSELECT.
+
+  IF sy-subrc <> 0.
+    MESSAGE 'Nothing found, enter a correct plant by code or name'(004) TYPE 'E'.
+  ELSE.
+     SORT wt_plant BY werks.
+     PERFORM display.
+  ENDIF.
+
+
+  FORM display.
+
+    DATA: wa_layout TYPE slis_layout_alv,
+          wt_fcat   TYPE slis_t_fieldcat_alv,
+          wa_fcat   TYPE slis_fieldcat_alv.
+
+    wa_layout-colwidth_optimize = 'X'.
+
+
+    wa_fcat-FIELDNAME = 'WERKS'.
+    wa_fcat-ref_tabname = 'T001W'.
+    APPEND wa_fcat TO wt_fcat.
+
+    CLEAR wa_fcat.
+
+    wa_fcat-FIELDNAME = 'NAME1'.
+    wa_fcat-ref_tabname = 'T001W'.
+    APPEND wa_fcat TO wt_fcat.
+
+    CLEAR wa_fcat.
+    wa_fcat-fieldname = 'LAND1'.
+    wa_fcat-ref_tabname = 'T001W'.
+    APPEND wa_fcat TO wt_fcat.
+
+    CLEAR wa_fcat.
+    wa_fcat-fieldname = 'LANDX'.
+    wa_fcat-ref_tabname = 'T005T'.
+    APPEND wa_fcat TO wt_fcat.
+
+    CLEAR wa_fcat.
+    wa_fcat-fieldname = 'ADRNR'.
+    wa_fcat-ref_tabname = 'T001W'.
+    APPEND wa_fcat TO wt_fcat.
+
+
+    CALL FUNCTION 'REUSE_ALV_GRID_DISPLAY'
+      EXPORTING
+        I_CALLBACK_PROGRAM = sy-repid
+        I_CALLBACK_USER_COMMAND = 'USER_COMMAND'
+        IS_LAYOUT     = wa_layout
+        IT_FIELDCAT   = wt_fcat
+      TABLES
+        T_OUTTAB      = wt_plant
+      EXCEPTIONS
+        PROGRAM_ERROR = 1
+        OTHERS        = 2.
+    IF SY-SUBRC <> 0.
+      MESSAGE 'Nothing to show'(002) TYPE 'E'.
+    ENDIF.
+
+  ENDFORM.
+
+
+  FORM user_command USING f_ucomm       TYPE sy-ucomm
+                          fs_selfield   TYPE slis_selfield.
+
+    CLEAR wa_plant.
+    READ TABLE wt_plant INTO wa_plant INDEX FS_SELFIELD-TABINDEX.
+
+    IF p_btn1 = 'X'.
+       CALL FUNCTION 'ADDRESS_SHOW_PRINTFORM'
+        EXPORTING
+          ADDRESS_TYPE                         = '1'
+          ADDRESS_NUMBER                       = wa_plant-adrnr
+          SENDER_COUNTRY                       = wa_plant-land1
+        EXCEPTIONS
+          ADDRESS_BLOCKED                      = 1
+          PERSON_BLOCKED                       = 2
+          CONTACT_PERSON_BLOCKED               = 3
+          ADDR_TO_BE_FORMATED_IS_BLOCKED       = 4
+          OTHERS                               = 5
+          .
+       IF SY-SUBRC <> 0.
+          MESSAGE 'Can''t access to more details about the adresse'(007) TYPE 'E'.
+       ENDIF.
+
+    ELSE.
+      CLEAR wa_plant.
+      CASE f_ucomm. " l'action du l'utilisateur
+        WHEN  '&IC1'. "double clique
+          READ TABLE wt_plant INTO wa_plant INDEX FS_SELFIELD-TABINDEX.
+          IF sy-subrc = 0.
+            set PARAMETER ID 'WRK' field WA_PLANT-WERKS.
+            call TRANSACTION 'ZZT_PLANT' AND SKIP FIRST SCREEN.
+          ENDIF.
+      ENDCASE.
+    ENDIF.
+  ENDFORM.

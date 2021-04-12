@@ -1,0 +1,4 @@
+Explication by me :
+	En gros imaginons que là ou sont stocké les données c'est très basique, il n'y a pas beaucoup de types pour les champs
+	Bah avec l'ABAP Dictionnary, on sait qu'un certain champ de la table sera représenté par un data element dans le système SAP par exemple.
+	Ce data element est une "description" du champ dans la table. La table dans l'abap dictionnary permet de représenté la table dans la base de données...
