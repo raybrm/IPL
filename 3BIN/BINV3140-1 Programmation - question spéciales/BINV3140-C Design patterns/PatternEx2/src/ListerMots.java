@@ -3,6 +3,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
+/**
+ * Context 
+ * @author rayan
+ *
+ */
 public class ListerMots {
 	
 	private String fichier;

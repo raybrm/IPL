@@ -1,9 +1,10 @@
 
+// Composite aussi
 public class Et implements Strategy {
 	
 	private Strategy[] strategies;
 	
-	public Et(Strategy... strategies) {
+	public Et(Strategy... strategies) { // met toutes les stratégies dans un tableau
 		this.strategies = strategies;
 	}
 	

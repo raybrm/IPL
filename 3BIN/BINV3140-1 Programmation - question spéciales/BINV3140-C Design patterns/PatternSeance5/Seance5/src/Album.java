@@ -1,4 +1,8 @@
-
+/**
+ * Classe immuable -> tous les attributs sont final
+ * @author rayan
+ *
+ */
 public class Album {
 	private final String titre;
 	private final String artiste;
@@ -135,7 +139,7 @@ public class Album {
 			return this;
 		}
 		
-		public Album build() {
+		public Album build() { // Contruit l'album sur base du builder
 			return new Album(this);
 		}
 	}	

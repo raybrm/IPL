@@ -1,4 +1,8 @@
-
+/**
+ * Lister les mots d'une longueur précise.
+ * @author rayan
+ *
+ */
 // Feuille
 public class LongueurStrategy implements Strategy {
 	

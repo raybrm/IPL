@@ -1,4 +1,4 @@
-
+// Composite
 public class Or implements Strategy{
 	
 	private Strategy strategy1;

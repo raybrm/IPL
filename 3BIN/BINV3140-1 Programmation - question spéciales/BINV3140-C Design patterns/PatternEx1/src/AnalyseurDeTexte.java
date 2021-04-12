@@ -7,6 +7,7 @@ public class AnalyseurDeTexte {
 		
 		System.out.println("ici");
 		Subject sub = new Subject("BelgiqueTexte.txt");
+		// On peut appeler n'importe quel observer défini 
 		Observer mots = new ConcreteObserverMots();
 		Observer lignes = new ConcreteObserverLignes();
 		Observer Palindromes = new ConcreteObserverPalindromes();

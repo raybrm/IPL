@@ -2,7 +2,7 @@ package domaine;
 
 import java.util.Calendar;
 
-public abstract class CarteDeCredit {
+public abstract class CarteDeCredit { // produit abstrait
 	String nom;
 	String numero;
 	Calendar dateExpiration;

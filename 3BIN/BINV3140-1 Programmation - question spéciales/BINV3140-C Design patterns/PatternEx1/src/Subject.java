@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Subject {
 	
-	private ArrayList<Observer> observerCollection = new ArrayList<>();
+	private ArrayList<Observer> observerCollection = new ArrayList<>(); // contient tous les obsevers
 	private String fileName;
 	
 	public Subject(String fileName) {
@@ -29,7 +29,7 @@ public class Subject {
 		}
 		
 		lecteurAvecBuffer.close();
-		endNotifyObservers();
+		endNotifyObservers(); // notifie à la fin
 	}
 	
 	public void registerObserver(Observer observer) {

@@ -8,7 +8,7 @@ public class MachineACafe {
 			}	
 			
 			@Override
-			public void rendreMonnaie(MachineACafe mc) {}
+			public void rendreMonnaie(MachineACafe mc) {} 
 
 		}, COLLECTE {
 
@@ -57,14 +57,16 @@ public class MachineACafe {
 			}
 			
 		};
+		// Comportement par défault de l'énuméré
 		
-		// Methode générale : comme si c'était une interface
-		public abstract void selectionnerBoisson(MachineACafe mc, ToucheBoisson toucheBoisson);
+		public abstract void selectionnerBoisson(MachineACafe mc, ToucheBoisson toucheBoisson); // obliger a redéfinier
+		
 		public void entrerMonnaie(MachineACafe mc, Piece piece) {
 			// Comportement par défaut
 			mc.setState(COLLECTE);
 			
 		}
+		
 		public void rendreMonnaie(MachineACafe mc) {
 			mc.afficherRetour();
 			mc.montantEnCours = 0;
@@ -97,7 +99,7 @@ public class MachineACafe {
 	}
 
 	public void entrerMonnaie(Piece piece) {
-		// On peut mettre de la redondance de code ici quand les 3 états on chacune un comportement différente 
+		// On ne peut mettre de la redondance de code ici quand les 3 états on chacun un comportement différent
 		montantEnCours += piece.getValeur();
 		afficherMontant();
 		etatCourant.entrerMonnaie(this, piece);

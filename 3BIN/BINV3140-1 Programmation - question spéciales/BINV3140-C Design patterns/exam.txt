@@ -1,0 +1,15 @@
+Tout les slides utilisables.
+
+les 4 patterns pas dans les slides :
+	les 2 factory 
+	le state
+	le builder
+
+1 page recto reverso : diagrammes de classes des 4 patterns non vu(recto) - tout le reste des diagrammes(verso). 
+
+
+
+3 types de question ():
+	identification de pattern 
+	refactroring 
+	ou implémenter un pattern 

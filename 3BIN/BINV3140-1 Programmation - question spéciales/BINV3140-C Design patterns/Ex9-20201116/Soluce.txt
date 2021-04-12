@@ -1,0 +1,130 @@
+1. Adapteur
+------------------------------------------------
+Participants théoriques            Dans le code
+
+Client =========================> Kaleidoscope
+Adapteur =======================> ShapeVector
+Adaptee   ======================> ArrayList
+methodA() ======================> addElement(), elementAt(), size(), iterator()
+methodB() ======================> add(), get(), size(), iterator()
+
+ps: pour l'exam pas besoin de mettre la méthode doWork() du diagramme de classe
+
+
+2. Abstract factory
+-------------------------------------------------
+Participants théoriques            Dans le code
+
+Context ========================> Kaleidoscope
+AbstractFactory ================> ShapeFactory
+ConcreteFactoryA ===============> CircleFactory
+ConcreteFactoryB ===============> GeneralShapeFactory
+execute() ======================> createShape()
+
+
+3. Strategy
+--------------------------------------------------
+Participants théoriques            Dans le code
+Stategy ========================> ShapeMutationStrategy
+ConcreteStrategy ===============> CompositeShapeMutationStrategy
+				  ExplodeShapeMutationStrategy
+                                  GeneralShapeMutationStrategy
+                                  GrowShapeMutationStrategy
+                                  ImplodeShapeMutationStrategy
+				  ShapeMutationStrategy
+			          SpinShapeMutationStrategy
+Context ========================> Kaleidoscope
+execute() ======================> mutate()
+
+
+4. Template Method
+-------------------------------------------------------
+Participants théoriques            Dans le code
+Abstract class =================> Shape
+Concrete class =================> Circle, Polygons
+PrimitiveOperations() ==========> drawBorder(), flipBorder()...
+
+
+5. Observer
+-------------------------------------------------------
+Participants théoriques            Dans le code
+
+Subject ========================> Kaleidoscope
+observerCollection =============> theViews
+registerObserver() =============> register()
+notifyObservers() ==============> turn()
+Obeserver ======================> KaleidoscopeView
+ConcreteObserver ===============> FlipKaleidoscopeView                                                         
+                                  NegativeKaleidoscopeView                                                     
+                                  RotateKaleidoscopeView                                                       
+                                  TraditionalKaleidoscopeView
+update() =======================> update()
+
+
+6. Composite
+---------------------------------------------------------
+Participants théoriques            Dans le code
+
+IComponent =====================> ShapeMutationStrategy
+Composite ======================> CompositeShapeMutationStrategy
+Operation ======================> mutate()
+Leafs ==========================> ExplodeShapeMutationStrategy
+                                  GeneralShapeMutationStrategy
+                                  GrowShapeMutationStrategy
+                                  ImplodeShapeMutationStrategy
+			          SpinShapeMutationStrategy
+
+
+7. Iterator
+---------------------------------------------------------------
+Participants théoriques            Dans le code
+
+Concrete iterator ==============> ShapeIterator
+Concrete Aggregate =============> ShapeVector
+                                  KaleidoscopeView
+
+8. Prototype
+---------------------------------------------------------------
+Participants théoriques            Dans le code
+
+Prototype =======================> Shape
+ConcretePrototype ===============> Circle
+                                   Rectangle
+                                   Polygon
+                                   Square
+                                   Triangle
+clone() =========================> copy ()
+Client ==========================> FlipKaleidoscopeView
+                                   NegativeKaleidoscopeView
+                                   RotateKaleidoscopeView
+                                   TraditionalKaleidoscopeView
+
+
+9. Template Method
+------------------------------------------------------------------
+Participants théoriques            Dans le code
+
+AbstractClass ==================> KaleidoscopeView
+Concreteclasses ================>  FlipKaleidoscopeView
+                                   NegativeKaleidoscopeView
+                                   RotateKaleidoscopeView
+                                   TraditionalKaleidoscopeView
+PrimitiveOperation() ============> drawShapes()
+TemplateMethod() ================> paint()
+
+
+10. Observer
+---------------------------------------------------------------------
+Participants théoriques            Dans le code
+
+Subject =========================> KaleidoscopeControl
+observerCollection ==============> theScopes
+registerObserver() ==============> register()
+notifyObservers() ===============> run()
+Observer ========================> Kaleidoscope
+ConcreteObserve =================> Kaleidoscope
+update() ========================> turn() 
+
+
+
+

@@ -1,4 +1,8 @@
-
+/**
+ * Lister les mots étant des palindromes
+ * @author rayan
+ *
+ */
 public class PalindromeStrategy implements Strategy {
 
 	@Override

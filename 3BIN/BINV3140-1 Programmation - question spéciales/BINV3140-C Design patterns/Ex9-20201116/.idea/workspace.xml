@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e131cc0b-481e-428c-9b10-c877ff8d137f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../BINV3050-1 Anglais 3/Barman_Rayan_Facial_Recognition.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BINV3050-1 Anglais 3/Barman_Rayan_Facial_Recognition.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/07 - SportsStore/SportsSln/SportsStore/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/07 - SportsStore/SportsSln/SportsStore/Models/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/08 - SportsStore - Navigation/End of Chapter/SportSln/.vs/SportsSln/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/08 - SportsStore - Navigation/End of Chapter/SportSln/.vs/SportsSln/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/08 - SportsStore - Navigation/End of Chapter/SportSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/08 - SportsStore - Navigation/End of Chapter/SportSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/09 - SportsStore - Cart/End of Chapter/SportsSln/SportsStore/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/09 - SportsStore - Cart/End of Chapter/SportsSln/SportsStore/Models/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/09 - SportsStore - Cart/End of Chapter/SportsSln/SportsStore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/09 - SportsStore - Cart/End of Chapter/SportsSln/SportsStore/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Documentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Documentation.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Grille dautoévaluation.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Grille dautoévaluation.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Livre.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Livre.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Roadmap.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/Roadmap.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/.vs/SportsSln/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/.vs/SportsSln/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/.vs/SportsSln/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/.vs/SportsSln/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Infrastructure/PageLinkTagHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Infrastructure/PageLinkTagHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Pages/Admin/Editor.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Pages/Admin/Editor.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Pages/Completed.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Pages/Completed.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/bin/Debug/netcoreapp3.1/SportsStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Pages/Completed.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Pages/Completed.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/RazorDeclaration/SportsStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/RazorDeclaration/SportsStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/RazorDeclaration/SportsStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/RazorDeclaration/SportsStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../BINV3140-B ASP.NET/SportsSln/SportsStore/obj/Debug/netcoreapp3.1/SportsStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/cc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/cc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/client/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/client/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/domaine/CarteDeCredit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/domaine/CarteDeCredit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/domaine/Discover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/domaine/Discover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/validation/AmericanExpressHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/validation/AmericanExpressHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/validation/DinersClubHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/validation/DinersClubHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/validation/DiscoverHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/validation/DiscoverHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/validation/Generateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/validation/Generateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/validation/MasterCardHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/validation/MasterCardHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8-20201109/src/validation/VisaHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8-20201109/src/validation/VisaHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/FlyweightFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/FlyweightFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/GrosseBertaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/GrosseBertaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/PatternRobots.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/PatternRobots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/PicVertFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/PicVertFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/Robot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmeliorationBouclier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmeliorationBouclier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmeliorationDegats.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmeliorationDegats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmeliorationDegatsRecu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmeliorationDegatsRecu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmerlioration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotAmerlioration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotImpl$RobotBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotImpl$RobotBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/RobotImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7/out/production/Examen2014/TankFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/out/production/Examen2014/TankFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7b/src/PatternRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7b/src/PatternRobots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BINV3150-1 Développement web 3/commands react.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BINV3150-1 Développement web 3/commands react.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BINV3150-1 Développement web 3/week9/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../BINV3150-1 Développement web 3/week9/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PFE/PFEDEMO/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PFE/PFEDEMO/Startup.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1kgxM6M6kVZjrwLyvjWsBoWB4kT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e131cc0b-481e-428c-9b10-c877ff8d137f" name="Default Changelist" comment="" />
+      <created>1606135984558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606135984558</updated>
+      <workItem from="1606135985706" duration="209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1606136197680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606136197680" />
+    <state x="342" y="140" key="new project wizard" timestamp="1606136199249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606136199249" />
+  </component>
+</project>

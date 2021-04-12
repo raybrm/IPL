@@ -2,7 +2,11 @@ package AbstractFactory;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ * Context
+ * @author rayan
+ *
+ */
 public class Magasin {
 	
 	private Map<String,Produit> bac = new HashMap<String,Produit>();

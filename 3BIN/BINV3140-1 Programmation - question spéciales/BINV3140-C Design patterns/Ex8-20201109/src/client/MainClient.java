@@ -9,12 +9,15 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
 
-import validation.Generateur;
+import validation.*;
 
 import domaine.CarteDeCredit;
 
+
+// Abstract Factory pour le 2Ëme pattern
 public class MainClient {
 	public static void main(String[] args) throws IOException {
+
 		File file = new File("cc.txt");
 		try {
 			Scanner fichier = new Scanner(file);
@@ -25,9 +28,9 @@ public class MainClient {
 					SimpleDateFormat sdf = new SimpleDateFormat("MM/yy");
 					Calendar dateExpiration = new GregorianCalendar();
 					dateExpiration.setTime(sdf.parse(parts[1]));
-					CarteDeCredit carteDeCredit = ???????(parts[0], dateExpiration, parts[2]);
+					CarteDeCredit carteDeCredit = new AmericanExpressHandler(new DinersClubHandler(new DiscoverHandler(new MasterCardHandler(new VisaHandler(null))))).creerCarte(parts[0], dateExpiration, parts[2]); //???????(parts[0], dateExpiration, parts[2]); // creation chaine de responsabilit√©
 					if (carteDeCredit == null)
-						System.out.println("Num√©ro de carte invalide " + parts[0]);
+						System.out.println("NumÈro de carte invalide " + parts[0]);
 					else {
 						System.out.println("La carte " + carteDeCredit.getNumero() + " est une carte " + carteDeCredit.getType());
 						System.out.println("Elle expire le " + sdf.format(dateExpiration.getTime()));

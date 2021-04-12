@@ -10,7 +10,7 @@ public class Main {
 		Strategy stLongueur = new LongueurStrategy(4);
 		
 		Strategy or = new Or(stT, stLongueur);
-		Decorator sttt = new Decorator(stT);
+		Decorator sttt = new Decorator(stT); // le decorator est du même type que l'interface
 		
 		try {
 			lm.lister(sttt);

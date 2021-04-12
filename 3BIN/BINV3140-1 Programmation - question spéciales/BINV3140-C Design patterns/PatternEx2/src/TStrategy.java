@@ -1,4 +1,8 @@
-
+/**
+ * Lister les mots commençant par 't'
+ * @author Rayan
+ *
+ */
 public class TStrategy implements Strategy {
 
 	@Override

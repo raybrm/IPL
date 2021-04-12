@@ -39,8 +39,8 @@ public class PatternRobots {
 		FlyweightFactory flyweight = new FlyweightFactory();
 		flyweight.ajoutePreconfig("Pic-vert", new RobotImpl.RobotBuilder("Pic-vert").puissanceCanon(25).puissanceBouclier(2).frequenceTir(10).build());
 		flyweight.ajoutePreconfig("Grosse Berta", new RobotImpl.RobotBuilder("Grosse Berta").puissanceCanon(25).puissanceBouclier(2).frequenceTir(10).build());
-		//flyweight.ajoutePreconfig("Tank", new TankFactory());
 
+		
 		Robot picvert = flyweight.creerRobot("Pic-vert");
 		Robot GrosseBerta = flyweight.creerRobot("Grosse Berta");
 

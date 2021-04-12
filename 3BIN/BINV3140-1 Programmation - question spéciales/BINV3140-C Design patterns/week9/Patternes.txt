@@ -1,0 +1,9 @@
+Abstact Factory
+Composite et stratégie : composite/concrete stratégie : CompositeShapeMutationStrategy,   Icomponent/stratégie : ShapeMutationStrategy, leaf/concrete stratégie : Explode - General - Grow - Implode - Spin,  operation() = mutate,  Kaleidoscope -> contexte?
+Pattern Observer => Observer (KaleidoscopeView), ConcreteObserver (TraditionalKaleidoscopeView, FlipKaleidoscopeView,RotateKaleidoscopeView, NegativeKaleidoscopeView), Subject (Kaleidoscope),update(update())
+Iterator => ConcreteIterator: ShapeIterator, ConcreteAggreagate: ShapeVector, kaledoscope
+Template Methode : Abstract class: KaleidoscopeView -  templateMethod() : paint() - primitiveOperation() : drawshapes() - ConcreteClass: les autres classes du package views
+Prootype => prototype : Shapes - clone() : copy()- concreteProtype : tt ce qui impl shape - clone() : copy() -client : 4 classes views 
+Adapter => Client : kaleidoscope-  Adaptor : ShapeVector - adapte : ArrayList - methodeA(): addElement, elementAtt, size, iterator - methodeB() : add, get , size, iterator.
+
+Observer => Subject : KaleidoscopeControl - ConcreteObersver :   Kaleidoscope - update : turn() - notify : run() - register : register ()
